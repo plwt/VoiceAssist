@@ -79,16 +79,3 @@ def get_trending_movies():
     for r in results:
         trending_movies.append(r["original_title"])
     return trending_movies[:5]
-
-
-def get_random_joke():
-    headers = {
-        'Accept': 'application/json'
-    }
-    res = requests.get("https://icanhazdadjoke.com/", headers=headers).json()
-    return res["joke"]
-
-
-def get_random_advice():
-    res = requests.get("https://api.adviceslip.com/advice").json()
-    return res['slip']['advice']
