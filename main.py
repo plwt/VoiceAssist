@@ -85,8 +85,8 @@ if __name__ == '__main__':
         if 'open notepad' in query:
             open_notepad()
 
-        elif 'open discord' in query:
-            open_discord()
+        # elif 'open discord' in query:
+            # open_discord()
 
         elif 'open command prompt' in query or 'open cmd' in query:
             open_cmd()
@@ -97,10 +97,10 @@ if __name__ == '__main__':
         elif 'open calculator' in query:
             open_calculator()
 
-        elif 'ip address' in query:
-            ip_address = find_my_ip()
-            speak(f'Your IP Address is {ip_address}.\n For your convenience, I am printing it on the screen sir.')
-            print(f'Your IP Address is {ip_address}')
+        # elif 'ip address' in query:
+            # ip_address = find_my_ip()
+            # speak(f'Your IP Address is {ip_address}.\n For your convenience, I am printing it on the screen sir.')
+            # print(f'Your IP Address is {ip_address}')
 
         elif 'wikipedia' in query:
             speak('What do you want to search on Wikipedia, sir?')
@@ -120,58 +120,58 @@ if __name__ == '__main__':
             query = take_user_input().lower()
             search_on_google(query)
 
-        elif "send whatsapp message" in query:
-            speak(
-                'On what number should I send the message sir? Please enter in the console: ')
-            number = input("Enter the number: ")
-            speak("What is the message sir?")
-            message = take_user_input().lower()
-            send_whatsapp_message(number, message)
-            speak("I've sent the message sir.")
+        # elif "send whatsapp message" in query:
+            # speak(
+                # 'On what number should I send the message sir? Please enter in the console: ')
+            # number = input("Enter the number: ")
+            # speak("What is the message sir?")
+            # message = take_user_input().lower()
+            # send_whatsapp_message(number, message)
+            # speak("I've sent the message sir.")
 
-        elif "send an email" in query:
-            speak("On what email address do I send sir? Please enter in the console: ")
-            receiver_address = input("Enter email address: ")
-            speak("What should be the subject sir?")
-            subject = take_user_input().capitalize()
-            speak("What is the message sir?")
-            message = take_user_input().capitalize()
-            if send_email(receiver_address, subject, message):
-                speak("I've sent the email sir.")
-            else:
-                speak("Something went wrong while I was sending the mail. Please check the error logs sir.")
+        # elif "send an email" in query:
+            ##speak("On what email address do I send sir? Please enter in the console: ")
+            # receiver_address = input("Enter email address: ")
+            # speak("What should be the subject sir?")
+            # subject = take_user_input().capitalize()
+            # speak("What is the message sir?")
+            # message = take_user_input().capitalize()
+            # if send_email(receiver_address, subject, message):
+            #    speak("I've sent the email sir.")
+            # else:
+            #    speak("Something went wrong while I was sending the mail. Please check the error logs sir.")
 
-        elif 'joke' in query:
-            speak(f"Hope you like this one sir")
-            joke = get_random_joke()
-            speak(joke)
-            speak("For your convenience, I am printing it on the screen sir.")
-            pprint(joke)
+        # elif 'joke' in query:
+          #  speak(f"Hope you like this one sir")
+           # joke = get_random_joke()
+           # speak(joke)
+           # speak("For your convenience, I am printing it on the screen sir.")
+           # pprint(joke)
 
-        elif "advice" in query:
-            speak(f"Here's an advice for you, sir")
-            advice = get_random_advice()
-            speak(advice)
-            speak("For your convenience, I am printing it on the screen sir.")
-            pprint(advice)
+        #elif "advice" in query:
+        #    speak(f"Here's an advice for you, sir")
+        #    advice = get_random_advice()
+        #    speak(advice)
+        #    speak("For your convenience, I am printing it on the screen sir.")
+        #    pprint(advice)
 
-        elif "trending movies" in query:
-            speak(f"Some of the trending movies are: {get_trending_movies()}")
-            speak("For your convenience, I am printing it on the screen sir.")
-            print(*get_trending_movies(), sep='\n')
+        #elif "trending movies" in query:
+        #    speak(f"Some of the trending movies are: {get_trending_movies()}")
+        #    speak("For your convenience, I am printing it on the screen sir.")
+        #    print(*get_trending_movies(), sep='\n')
 
-        elif 'news' in query:
-            speak(f"I'm reading out the latest news headlines, sir")
-            speak(get_latest_news())
-            speak("For your convenience, I am printing it on the screen sir.")
-            print(*get_latest_news(), sep='\n')
+        # elif 'news' in query:
+        #     speak(f"I'm reading out the latest news headlines, sir")
+        #    speak(get_latest_news())
+        #    speak("For your convenience, I am printing it on the screen sir.")
+        #    print(*get_latest_news(), sep='\n')
 
-        elif 'weather' in query:
-            ip_address = find_my_ip()
-            city = requests.get(f"https://ipapi.co/{ip_address}/city/").text
-            speak(f"Getting weather report for your city {city}")
-            weather, temperature, feels_like = get_weather_report(city)
-            speak(f"The current temperature is {temperature}, but it feels like {feels_like}")
-            speak(f"Also, the weather report talks about {weather}")
-            speak("For your convenience, I am printing it on the screen sir.")
-            print(f"Description: {weather}\nTemperature: {temperature}\nFeels like: {feels_like}")
+        # elif 'weather' in query:
+        #    ip_address = find_my_ip()
+        #    city = requests.get(f"https://ipapi.co/{ip_address}/city/").text
+        #    speak(f"Getting weather report for your city {city}")
+        #    weather, temperature, feels_like = get_weather_report(city)
+        #    speak(f"The current temperature is {temperature}, but it feels like {feels_like}")
+        #    speak(f"Also, the weather report talks about {weather}")
+        #    speak("For your convenience, I am printing it on the screen sir.")
+        #    print(f"Description: {weather}\nTemperature: {temperature}\nFeels like: {feels_like}")

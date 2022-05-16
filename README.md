@@ -1,3 +1,7 @@
+Comment out features to be removed.
+
+
+
 Read the tutorial series - https://ireadblog.com/series/18/virtual-personal-assistant-using-python
 
 freeCodeCamp article: https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/
@@ -16,4 +20,6 @@ OPENWEATHER_APP_ID=None
 TMDB_API_KEY=None
 ```
 
-Replace `None` with your values
+Set paths for Firefox, Thunderbird, Zoom and Files
+Set bot name and username
+Write set of instructions with commands
