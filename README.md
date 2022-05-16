@@ -21,6 +21,4 @@ BOTNAME=JARVIS
 ```
 
 Set paths for Firefox, Thunderbird, Zoom and Files
-Remove wikipedia search
-Remove "sir" from everywhere
 Write set of instructions with commands

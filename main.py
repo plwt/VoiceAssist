@@ -102,21 +102,21 @@ if __name__ == '__main__':
             # speak(f'Your IP Address is {ip_address}.\n For your convenience, I am printing it on the screen sir.')
             # print(f'Your IP Address is {ip_address}')
 
-        elif 'wikipedia' in query:
-            speak('What do you want to search on Wikipedia, sir?')
-            search_query = take_user_input().lower()
-            results = search_on_wikipedia(search_query)
-            speak(f"According to Wikipedia, {results}")
-            speak("For your convenience, I am printing it on the screen sir.")
-            print(results)
+        # elif 'wikipedia' in query:
+        #    speak('What do you want to search on Wikipedia?')
+        #    search_query = take_user_input().lower()
+        #    results = search_on_wikipedia(search_query)
+        #    speak(f"According to Wikipedia, {results}")
+        #    speak("For your convenience, I am printing it on the screen.")
+        #    print(results)
 
         elif 'youtube' in query:
-            speak('What do you want to play on Youtube, sir?')
+            speak('What do you want to play on Youtube?')
             video = take_user_input().lower()
             play_on_youtube(video)
 
         elif 'search on google' in query:
-            speak('What do you want to search on Google, sir?')
+            speak('What do you want to search on Google?')
             query = take_user_input().lower()
             search_on_google(query)
 
