@@ -25,9 +25,21 @@ def open_cmd():
     os.system('start cmd')
 
 
-def open_camera():
-    sp.run('start microsoft.windows.camera:', shell=True)
+# def open_camera():
+#     sp.run('start microsoft.windows.camera:', shell=True)
 
 
 def open_calculator():
     sp.Popen(paths['calculator'])
+
+def open_firefox():
+    sp.Popen(paths['firefox'])
+
+def open_thunderbird():
+    sp.Popen(paths['thunderbird'])
+
+def open_zoom():
+    sp.Popen(paths['zoom'])
+
+def open_files():
+    sp.Popen(paths['files'])

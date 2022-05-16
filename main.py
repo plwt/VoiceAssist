@@ -10,8 +10,8 @@ from utils import opening_text
 from pprint import pprint
 
 
-USERNAME = config('USER')
-BOTNAME = config('BOTNAME')
+USERNAME = config('Paul')
+BOTNAME = config('Dave')
 
 
 engine = pyttsx3.init('sapi5')
@@ -67,12 +67,12 @@ def take_user_input():
         else:
             hour = datetime.now().hour
             if hour >= 21 and hour < 6:
-                speak("Good night sir, take care!")
+                speak("Good night, take care!")
             else:
-                speak('Have a good day sir!')
+                speak('Have a good day!')
             exit()
     except Exception:
-        speak('Sorry, I could not understand. Could you please say that again?')
+        speak('Sorry, I did not get that. Please could you say that again?')
         query = 'None'
     return query
 
@@ -91,8 +91,8 @@ if __name__ == '__main__':
         elif 'open command prompt' in query or 'open cmd' in query:
             open_cmd()
 
-        elif 'open camera' in query:
-            open_camera()
+        # elif 'open camera' in query:
+        #     open_camera()
 
         elif 'open calculator' in query:
             open_calculator()

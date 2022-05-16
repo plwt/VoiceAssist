@@ -13,13 +13,14 @@ Contents of .env file:
 ```
 USER=None
 BOTNAME=JARVIS
-EMAIL=None
-PASSWORD=None
-NEWS_API_KEY=None
-OPENWEATHER_APP_ID=None
-TMDB_API_KEY=None
+# EMAIL=None
+# PASSWORD=None
+# NEWS_API_KEY=None
+# OPENWEATHER_APP_ID=None
+# TMDB_API_KEY=None
 ```
 
 Set paths for Firefox, Thunderbird, Zoom and Files
-Set bot name and username
+Remove wikipedia search
+Remove "sir" from everywhere
 Write set of instructions with commands
