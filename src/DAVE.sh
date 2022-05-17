@@ -8,6 +8,7 @@ source venv/bin/activate
 # install requirements
 python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade datetime
+python3 -m pip install --upgrade python-decouple
 python3 -m pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 
 # run the script
