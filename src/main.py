@@ -10,8 +10,8 @@ from utils import opening_text
 from pprint import pprint
 
 
-USERNAME = config('Paul')
-BOTNAME = config('Dave')
+USERNAME = config('USER')
+BOTNAME = config('BOTNAME')
 
 
 engine = pyttsx3.init('sapi5')
