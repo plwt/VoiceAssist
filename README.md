@@ -20,5 +20,12 @@ BOTNAME=JARVIS
 # TMDB_API_KEY=None
 ```
 
-Set paths for Firefox, Thunderbird, Zoom and Files
-Write set of instructions with commands
+Run app
+
+Open notepad
+Open terminal
+Open Firefox
+Open Thunderbird
+Open files
+Open Zoom
+Open calculator
