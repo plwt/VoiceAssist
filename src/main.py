@@ -88,14 +88,26 @@ if __name__ == '__main__':
         # elif 'open discord' in query:
             # open_discord()
 
-        elif 'open command prompt' in query or 'open cmd' in query:
-            open_cmd()
+        elif 'open terminal' in query or 'open terminal' in query:
+            open_terminal()
 
         # elif 'open camera' in query:
         #     open_camera()
 
+        elif 'open firefox' in query:
+            open_firefox()
+
+        elif 'open thunderbird' in query:
+            open_thunderbird()
+
         elif 'open calculator' in query:
             open_calculator()
+
+        elif 'open zoom' in query:
+            open_zoom()
+
+        elif 'open files' in query:
+            open_files()
 
         # elif 'ip address' in query:
             # ip_address = find_my_ip()
