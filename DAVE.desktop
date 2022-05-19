@@ -2,10 +2,10 @@
 Version=1.0
 Name=D.A.V.E
 Comment=Digital Assistant Voice Enabled
-Exec=/usr/bin/x-terminal-emulator -e "/opt/D.A.V.E/src/DAVE.sh"
+Exec=/usr/bin/x-terminal-emulator -e "/opt/DAVE/src/DAVE.sh"
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/opt/D.A.V.E/src/icon.png
+Icon=/opt/DAVE/src/icon.png
 Categories=GNOME;GTK;Development;
 Name[en_GB]=D.A.V.E
