@@ -1,10 +1,10 @@
 import requests
-from functions.online_ops import find_my_ip, get_latest_news, get_random_advice, get_random_joke, get_trending_movies, get_weather_report, play_on_youtube, search_on_google, search_on_wikipedia, send_email, send_whatsapp_message
+from functions.online_ops import play_on_youtube, search_on_google
 import pyttsx3
 import speech_recognition as sr
 from decouple import config
 from datetime import datetime
-from functions.os_ops import open_calculator, open_camera, open_cmd, open_notepad, open_discord
+from functions.os_ops import open_calculator, open_firefox, open_thunderbird, open_notepad, open_terminal, open_zoom, open_files
 from random import choice
 from utils import opening_text
 from pprint import pprint

@@ -20,6 +20,8 @@ BOTNAME=JARVIS
 # TMDB_API_KEY=None
 ```
 
+```sudo apt-get install portaudio19-dev```
+
 Run app
 
 Open notepad

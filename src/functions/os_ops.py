@@ -17,7 +17,6 @@ paths = {
 def open_notepad():
     os.startfile(paths['notepad'])
 
-
 # def open_discord():
 #     os.startfile(paths['discord'])
 
