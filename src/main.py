@@ -14,7 +14,7 @@ USERNAME = config('USER')
 BOTNAME = config('BOTNAME')
 
 
-engine = pyttsx3.init('sapi5')
+engine = pyttsx3.init()
 
 # Set Rate
 engine.setProperty('rate', 190)
@@ -24,7 +24,7 @@ engine.setProperty('volume', 1.0)
 
 # Set Voice (Female)
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)
+engine.setProperty('voice', voices[10].id)
 
 
 # Text to Speech Conversion
@@ -61,7 +61,7 @@ def take_user_input():
 
     try:
         print('Recognizing...')
-        query = r.recognize_google(audio, language='en-in')
+        query = r.recognize_google(audio, language='en-gb')
         if not 'exit' in query or 'stop' in query:
             speak(choice(opening_text))
         else:
