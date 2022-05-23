@@ -23,9 +23,15 @@ BOTNAME=JARVIS
 Run app
 
 Open notepad
+
 Open terminal
+
 Open Firefox
+
 Open Thunderbird
+
 Open files
+
 Open Zoom
+
 Open calculator
