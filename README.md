@@ -22,6 +22,10 @@ BOTNAME=JARVIS
 
 ```sudo apt-get install portaudio19-dev```
 
+```sudo apt-get install python3-tk python3-dev```
+
+
+
 Run app
 
 Open notepad
