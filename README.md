@@ -65,10 +65,12 @@ Search on Google (follow up question)
 
 3 - open terminal in default location
 
-4 - remove commented out code
+4 - remove waiting voices
 
-5 - add full code comments
+5 - remove commented out code
 
-6 - Add install requirements to .sh
+6 - add full code comments
 
-7 - Make a clean up .sh
+7 - Add install requirements to .sh
+
+8 - Make a clean up .sh
