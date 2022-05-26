@@ -1,24 +1,18 @@
-Read the tutorial series - https://ireadblog.com/series/18/virtual-personal-assistant-using-python
+# VoiceAssist
 
-freeCodeCamp article: https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/
+### Notes 
 
-Demo Video: https://vimeo.com/650156113
+- Read the tutorial series - https://ireadblog.com/series/18/virtual-personal-assistant-using-python
+- freeCodeCamp article: https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/
+- Demo Video: https://vimeo.com/650156113
+- sapi5 replacement for Linux - https://github.com/nateshmbhat/pyttsx3/issues/212
+- Speach engine settings - https://cs.github.com/?scopeName=All+repos&scope=&q=engine+%3D+pyttsx3.init%28
+- Portaudio install - https://stackoverflow.com/questions/35708238/installing-pyaudio-with-pip-in-a-virtualenv and https://stackoverflow.com/questions/50457197/pyaudio-installation-failure-on-ubuntu
+- Voice options https://linuxhint.com/command-line-text-speech-apps-linux/ and https://levelup.gitconnected.com/make-your-python-program-speak-310766534fbf and https://scriptverse.academy/tutorials/python-text-to-speech.html
+- pyttsx3 options https://pyttsx3.readthedocs.io/en/latest/engine.html#changing-voices
+- Opening applications - https://stackoverflow.com/questions/51329742/how-to-write-a-python-script-to-open-applications-in-linux-mint
 
-sapi5 replacement for Linux - https://github.com/nateshmbhat/pyttsx3/issues/212
-
-Speach engine settings - https://cs.github.com/?scopeName=All+repos&scope=&q=engine+%3D+pyttsx3.init%28
-
-Portaudio install - https://stackoverflow.com/questions/35708238/installing-pyaudio-with-pip-in-a-virtualenv and https://stackoverflow.com/questions/50457197/pyaudio-installation-failure-on-ubuntu
-
-Voice options https://linuxhint.com/command-line-text-speech-apps-linux/ and https://levelup.gitconnected.com/make-your-python-program-speak-310766534fbf and https://scriptverse.academy/tutorials/python-text-to-speech.html
-
-pyttsx3 options https://pyttsx3.readthedocs.io/en/latest/engine.html#changing-voices
-
-Opening applications - https://stackoverflow.com/questions/51329742/how-to-write-a-python-script-to-open-applications-in-linux-mint
-
-
-
-Contents of .env file:
+### Contents of .env file:
 
 ```
 USER=None
@@ -30,47 +24,33 @@ BOTNAME=JARVIS
 # TMDB_API_KEY=None
 ```
 
+### Requirements
+
 ```sudo apt-get install portaudio19-dev```
 
 ```sudo apt-get install python3-tk python3-dev```
 
 ```sudo apt update && sudo apt install espeak ffmpeg libespeak1```
 
+### Commands
 
+- Open notepad
+- Open terminal
+- Open Firefox
+- Open Thunderbird
+- Open files
+- Open Zoom
+- Open calculator
+- Open YouTube (follow up question)
+- Search on Google (follow up question)
 
-Run app
+## To Do
 
-Open notepad
-
-Open terminal
-
-Open Firefox
-
-Open Thunderbird
-
-Open files
-
-Open Zoom
-
-Open calculator
-
-Open YouTube (follow up question)
-
-Search on Google (follow up question)
-
-
-1 - Remove the need to have a .env file
-
-2 - Fix the Zoom option
-
-3 - open terminal in default location
-
-4 - remove waiting voices
-
-5 - remove commented out code
-
-6 - add full code comments
-
-7 - Add install requirements to .sh
-
-8 - Make a clean up .sh
+1. Remove the need to have a .env file
+2. Fix the Zoom option
+3. open terminal in default location
+4. remove waiting voices
+5. remove commented out code
+6. add full code comments
+7. Add install requirements to .sh
+8. Make a clean up .sh
