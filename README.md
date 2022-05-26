@@ -11,6 +11,7 @@
 - Voice options https://linuxhint.com/command-line-text-speech-apps-linux/ and https://levelup.gitconnected.com/make-your-python-program-speak-310766534fbf and https://scriptverse.academy/tutorials/python-text-to-speech.html
 - pyttsx3 options https://pyttsx3.readthedocs.io/en/latest/engine.html#changing-voices
 - Opening applications - https://stackoverflow.com/questions/51329742/how-to-write-a-python-script-to-open-applications-in-linux-mint
+- Shutdown dialogue - https://askubuntu.com/questions/771166/how-can-i-safely-shut-down-xfce-from-the-terminal
 
 ### Contents of .env file:
 
