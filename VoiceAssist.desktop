@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=VoiceAssist
+Comment=A voice assistant for Linux
+Exec=/usr/bin/x-terminal-emulator -e "/opt/VoiceAssist/src/VoiceAssist.sh"
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/opt/DAVE/src/icon.png
+Categories=GNOME;GTK;Development;
+Name[en_GB]=VoiceAssist
