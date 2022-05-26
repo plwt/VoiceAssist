@@ -7,7 +7,7 @@ paths = {
     'firefox': "/opt/DevEdition/firefox-bin",
     'thunderbird': "/opt/thunderbird/thunderbird-bin",
     'zoom': "/var/lib/snapd/desktop/applications/zoom-client_zoom-client.desktop /snap/bin/zoom-client",
-    'files': "thunar ",
+    'files': "thunar",
     'terminal': "/bin/xfce4-terminal"
 
 }
