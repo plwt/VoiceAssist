@@ -16,7 +16,7 @@ python3 -m pip install --upgrade pyttsx3
 python3 -m pip install --upgrade SpeechRecognition
 
 # run the script
-python3 /opt/DAVE/src/main.py
+python3 /opt/VoiceAssist/src/main.py
 
 sleep 5m
 
