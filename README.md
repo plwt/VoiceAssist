@@ -54,6 +54,10 @@ Open Zoom
 
 Open calculator
 
+Open YouTube (follow up question)
+
+Search on Google (follow up question)
+
 
 1 - Remove the need to have a .env file
 
@@ -64,3 +68,7 @@ Open calculator
 4 - remove commented out code
 
 5 - add full code comments
+
+6 - Add install requirements to .sh
+
+7 - Make a clean up .sh
