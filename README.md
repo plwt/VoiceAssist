@@ -1,7 +1,3 @@
-Comment out features to be removed.
-
-
-
 Read the tutorial series - https://ireadblog.com/series/18/virtual-personal-assistant-using-python
 
 freeCodeCamp article: https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/
@@ -57,3 +53,14 @@ Open files
 Open Zoom
 
 Open calculator
+
+
+1 - Remove the need to have a .env file
+
+2 - Fix the Zoom option
+
+3 - open terminal in default location
+
+4 - remove commented out code
+
+5 - add full code comments
