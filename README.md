@@ -51,7 +51,6 @@ BOTNAME=JARVIS
 2. Fix the Zoom option
 3. open terminal in default location
 4. remove waiting voices
-5. remove commented out code
 6. add full code comments
 7. Add install requirements to .sh
 8. Make a clean up .sh
