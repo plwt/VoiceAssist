@@ -11,7 +11,11 @@
 - Voice options https://linuxhint.com/command-line-text-speech-apps-linux/ and https://levelup.gitconnected.com/make-your-python-program-speak-310766534fbf and https://scriptverse.academy/tutorials/python-text-to-speech.html
 - pyttsx3 options https://pyttsx3.readthedocs.io/en/latest/engine.html#changing-voices
 - Opening applications - https://stackoverflow.com/questions/51329742/how-to-write-a-python-script-to-open-applications-in-linux-mint
+
 - Shutdown dialogue - https://askubuntu.com/questions/771166/how-can-i-safely-shut-down-xfce-from-the-terminal
+- Possibly use this to open terminal at core folder location - https://stackoverflow.com/questions/71281841/use-subprocess-to-open-terminal-and-run-a-command
+
+
 
 ### Contents of .env file:
 
@@ -47,10 +51,11 @@ BOTNAME=JARVIS
 
 ## To Do
 
-2. Fix the Zoom option
-3. open terminal in default location
-6. add full code comments
-7. Add install requirements to .sh
-8. Make a clean up .sh
-9. Add news
-10. Add weather
+1. Fix the Zoom option
+2. open terminal in default location
+3. add full code comments
+4. Add install requirements to .sh
+5. Make a clean up .sh
+6. Add news
+7. Add weather
+8. Add shutdown
