@@ -17,6 +17,12 @@ def play_on_youtube(video):
 def search_on_google(query):
     kit.search(query)
 
+def get_latest_news():
+    webbrowser.open('https://en.wikinews.org/wiki/Main_Page', new=2)
+    
+def get_weather_report():
+    webbrowser.open('https://openweathermap.org/', new=2)
+    
 # def get_latest_news():
 #    news_headlines = []
 #    res = requests.get(
@@ -34,4 +40,3 @@ def search_on_google(query):
 #    temperature = res["main"]["temp"]
 #    feels_like = res["main"]["feels_like"]
 #    return weather, f"{temperature}℃", f"{feels_like}℃"
-
