@@ -56,6 +56,4 @@ BOTNAME=JARVIS
 3. add full code comments
 4. Add install requirements to .sh
 5. Make a clean up .sh
-6. Add news
-7. Add weather
 8. Add shutdown

@@ -118,6 +118,13 @@ if __name__ == '__main__':
             query = take_user_input().lower()
             search_on_google(query)
 
+        elif 'news' in query:
+            get_latest_news()
+
+        elif 'weather' in query:
+            get_weather_report()
+
+
         # elif 'news' in query:
         #     speak(f"I'm reading out the latest news headlines, sir")
         #    speak(get_latest_news())
