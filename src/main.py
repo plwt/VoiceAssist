@@ -8,6 +8,7 @@ from functions.os_ops import open_calculator, open_firefox, open_thunderbird, op
 from random import choice
 from utils import opening_text
 from pprint import pprint
+import webbrowser
 
 
 USERNAME = config('USER')
