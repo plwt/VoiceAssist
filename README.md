@@ -53,9 +53,8 @@ BOTNAME=JARVIS
 
 ## To Do
 
-1. Fix the Zoom option
-2. open terminal in default location
-3. add full code comments
-4. Add install requirements to .sh
-5. Make a clean up .sh
-8. Add shutdown
+1. open terminal in default location
+2. add full code comments
+3. Add install requirements to .sh
+4. Make a clean up .sh
+5. Add shutdown
