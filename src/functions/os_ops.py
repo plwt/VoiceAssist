@@ -6,7 +6,7 @@ paths = {
     'calculator': "/bin/mate-calculator",
     'firefox': "/opt/DevEdition/firefox-bin",
     'thunderbird': "/opt/thunderbird/thunderbird-bin",
-    'zoom': "/var/lib/snapd/desktop/applications/zoom-client_zoom-client.desktop /snap/bin/zoom-client",
+    'zoom': "/snap/bin/zoom-client",
     'files': "thunar",
     'terminal': "/bin/xfce4-terminal"
 
@@ -33,3 +33,6 @@ def open_zoom():
 
 def open_files():
     sp.Popen(paths['files'])
+
+def open_zoom():
+    sp.Popen(paths['zoom'])
