@@ -48,6 +48,8 @@ BOTNAME=JARVIS
 - Open calculator
 - Open YouTube (follow up question)
 - Search on Google (follow up question)
+- What is the news?
+- What is the weather?
 
 ## To Do
 
