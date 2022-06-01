@@ -12,7 +12,7 @@ import webbrowser
 
 
 USERNAME = config('USER')
-BOTNAME = config('BOTNAME')
+# BOTNAME = config('BOTNAME')
 
 
 engine = pyttsx3.init()
