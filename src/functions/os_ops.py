@@ -9,6 +9,8 @@ paths = {
     'zoom': "/snap/bin/zoom-client",
     'files': "thunar",
     'terminal': "/bin/xfce4-terminal"
+    'shutdown': "xfce4-session-logout"
+    
 
 }
 
@@ -36,3 +38,6 @@ def open_files():
 
 def open_zoom():
     sp.Popen(paths['zoom'])
+    
+def shutdown():
+    sp.Popen(paths['shutdown'])
