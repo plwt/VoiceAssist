@@ -28,8 +28,8 @@ def open_thunderbird():
     sp.Popen(paths['thunderbird'])
 
 def open_terminal():
-    #sp.Popen(paths['terminal'])
-    subprocess.Popen('cd', shell=True)
+    exit_code = sp.call('./terminal.sh')
+    print(exit_code)
     
 def open_zoom():
     sp.Popen(paths['zoom'])
