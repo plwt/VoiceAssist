@@ -28,7 +28,8 @@ def open_thunderbird():
     sp.Popen(paths['thunderbird'])
 
 def open_terminal():
-    sp.Popen(paths['terminal'])
+    # sp.Popen(paths['terminal'])
+    sp.Popen(paths['cd'])
 
 def open_zoom():
     sp.Popen(paths['zoom'])
