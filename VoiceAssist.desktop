@@ -6,6 +6,6 @@ Exec=/usr/bin/x-terminal-emulator -e "/opt/VoiceAssist/src/VoiceAssist.sh"
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=/opt/DAVE/src/icon.png
+Icon=/opt/VoiceAssist/src/icon.png
 Categories=GNOME;GTK;Development;
 Name[en_GB]=VoiceAssist
