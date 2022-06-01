@@ -48,11 +48,10 @@ BOTNAME=JARVIS
 - Open YouTube (follow up question)
 - Search on Google (follow up question)
 - Open terminal
-
+- End session
 
 - What is the news? (does not work)
 - What is the weather? (does not work)
-- End session (does not work)
 
 ## To Do
 
