@@ -50,6 +50,7 @@ BOTNAME=JARVIS
 - Search on Google (follow up question)
 - What is the news?
 - What is the weather?
+- Shutdown
 
 ## To Do
 
@@ -57,4 +58,3 @@ BOTNAME=JARVIS
 2. add full code comments
 3. Add install requirements to .sh
 4. Make a clean up .sh
-5. Add shutdown
