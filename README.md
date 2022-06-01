@@ -55,7 +55,6 @@ BOTNAME=JARVIS
 
 ## To Do
 
-1. open terminal in default location
-2. add full code comments
-3. Add install requirements to .sh
-4. Make a clean up .sh
+1. add full code comments
+2. Add install requirements to .sh
+3. Make a clean up .sh
