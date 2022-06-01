@@ -46,12 +46,12 @@ def greet_user():
         speak(f"Good morning")
     elif (hour >= 12) and (hour < 16):
         # speak(f"Good afternoon {USERNAME}")
-         speak(f"Good afternoon")
+        speak(f"Good afternoon")
     elif (hour >= 16) and (hour < 19):
         # speak(f"Good Evening {USERNAME}")
-         speak (f"Good evening")
+        speak (f"Good evening")
     # speak(f"I am {BOTNAME}. How may I assist you?")
-     speak(f"How can I help you?")
+        speak(f"How can I help you?")
 
 # Takes Input from User
 def take_user_input():
