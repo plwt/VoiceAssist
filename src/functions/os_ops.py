@@ -8,7 +8,7 @@ paths = {
     'thunderbird': "/opt/thunderbird/thunderbird-bin",
     'zoom': "/snap/bin/zoom-client",
     'files': "thunar",
-    'terminal': "/bin/xfce4-terminal"
+    'terminal': "/bin/xfce4-terminal",
     'shutdown': "xfce4-session-logout"
     
 
