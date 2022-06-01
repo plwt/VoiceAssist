@@ -9,7 +9,7 @@ paths = {
     'zoom': "/snap/bin/zoom-client",
     'files': "thunar",
     'terminal': "/bin/xfce4-terminal",
-    'shutdown': "/bin/xfce4-session-logout"
+    'end_session': "xfce4-session-logout"
     
 
 }
@@ -28,17 +28,14 @@ def open_thunderbird():
     sp.Popen(paths['thunderbird'])
 
 def open_terminal():
-    # sp.Popen(paths['terminal'])
-    os.system('cd')
-
+    #sp.Popen(paths['terminal'])
+    subprocess.Popen('cd', shell=True)
+    
 def open_zoom():
     sp.Popen(paths['zoom'])
 
 def open_files():
     sp.Popen(paths['files'])
-
-def open_zoom():
-    sp.Popen(paths['zoom'])
     
-def end():
-    sp.Popen(paths['shutdown'])
+def end_session():
+    sp.Popen(paths['end_session'])

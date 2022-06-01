@@ -124,8 +124,8 @@ if __name__ == '__main__':
         elif 'weather' in query:
             get_weather_report()
           
-        elif "end" in query:
-            end()
+        elif "end session" in query:
+            end_session()
 
 
         # elif 'news' in query:
