@@ -76,7 +76,6 @@ def take_user_input():
                 speak('Have a good day!')
             exit()
     except Exception:
-        # speak('Sorry, I did not get that. Please could you say that again?')
         speak(' ')
         query = 'None'
     return query
@@ -126,20 +125,3 @@ if __name__ == '__main__':
           
         elif "end session" in query:
             end_session()
-
-
-        # elif 'news' in query:
-        #     speak(f"I'm reading out the latest news headlines, sir")
-        #    speak(get_latest_news())
-        #    speak("For your convenience, I am printing it on the screen sir.")
-        #    print(*get_latest_news(), sep='\n')
-
-        # elif 'weather' in query:
-        #    ip_address = find_my_ip()
-        #    city = requests.get(f"https://ipapi.co/{ip_address}/city/").text
-        #    speak(f"Getting weather report for your city {city}")
-        #    weather, temperature, feels_like = get_weather_report(city)
-        #    speak(f"The current temperature is {temperature}, but it feels like {feels_like}")
-        #    speak(f"Also, the weather report talks about {weather}")
-        #    speak("For your convenience, I am printing it on the screen sir.")
-        #    print(f"Description: {weather}\nTemperature: {temperature}\nFeels like: {feels_like}")
