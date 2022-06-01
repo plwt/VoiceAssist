@@ -47,7 +47,7 @@ BOTNAME=JARVIS
 - Open calculator
 - Open YouTube (follow up question)
 - Search on Google (follow up question)
-- End session
+- End session (does not work)
 
 - What is the news? (does not work)
 - What is the weather? (does not work)
