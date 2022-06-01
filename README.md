@@ -40,7 +40,6 @@ BOTNAME=JARVIS
 ### Commands
 
 - Open notepad
-- Open terminal
 - Open Firefox
 - Open Thunderbird
 - Open files
@@ -48,9 +47,12 @@ BOTNAME=JARVIS
 - Open calculator
 - Open YouTube (follow up question)
 - Search on Google (follow up question)
-- What is the news?
-- What is the weather?
-- Shutdown
+
+
+- What is the news? (does not work)
+- What is the weather? (does not work)
+- End session (does not work)
+- Open terminal (does not work)
 
 ## To Do
 

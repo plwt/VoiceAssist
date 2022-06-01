@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /opt/DAVE
+cd /opt/VoiceAssist
 
 python3 -m venv venv
 source venv/bin/activate
