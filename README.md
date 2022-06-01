@@ -47,14 +47,15 @@ BOTNAME=JARVIS
 - Open calculator
 - Open YouTube (follow up question)
 - Search on Google (follow up question)
-- Open terminal
 - End session
 
 - What is the news? (does not work)
 - What is the weather? (does not work)
+- Open terminal (does not work)
 
 ## To Do
 
 1. add full code comments
 2. Add install requirements to .sh
 3. Make a clean up .sh
+4. fix bugs
