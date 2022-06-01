@@ -28,7 +28,7 @@ def open_thunderbird():
     sp.Popen(paths['thunderbird'])
 
 def open_terminal():
-    exit_code = sp.call('/opt/VoiceAssist/src/functions/terminal.sh')
+    exit_code = sp.call('./opt/VoiceAssist/src/functions/terminal.sh')
     print(exit_code)
     
 def open_zoom():
@@ -38,5 +38,5 @@ def open_files():
     sp.Popen(paths['files'])
     
 def end_session():
-    exit_code = sp.call('/opt/VoiceAssist/src/functions/endsession.sh')
+    exit_code = sp.call('./opt/VoiceAssist/src/functions/endsession.sh')
     print(exit_code)
