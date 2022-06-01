@@ -9,14 +9,14 @@ paths = {
     'zoom': "/snap/bin/zoom-client",
     'files': "thunar",
     'terminal': "/bin/xfce4-terminal",
-    'shutdown': "xfce4-session-logout"
+    'shutdown': "/bin/xfce4-session-logout"
     
 
 }
 
 
 def open_notepad():
-    os.startfile(paths['notepad'])
+    sp.Popen(paths['notepad'])
 
 def open_calculator():
     sp.Popen(paths['calculator'])
@@ -40,5 +40,5 @@ def open_files():
 def open_zoom():
     sp.Popen(paths['zoom'])
     
-def shutdown():
+def end():
     sp.Popen(paths['shutdown'])

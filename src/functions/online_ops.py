@@ -13,7 +13,6 @@ from decouple import config
 def play_on_youtube(video):
     kit.playonyt(video)
 
-
 def search_on_google(query):
     kit.search(query)
 

@@ -124,8 +124,8 @@ if __name__ == '__main__':
         elif 'weather' in query:
             get_weather_report()
           
-        elif "shutdown" in query:
-            shutdown()
+        elif "end" in query:
+            end()
 
 
         # elif 'news' in query:
