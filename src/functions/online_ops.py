@@ -2,6 +2,7 @@ import requests
 import pywhatkit as kit
 import smtplib
 from decouple import config
+import subprocess as sp
 
 
 # NEWS_API_KEY = config("NEWS_API_KEY")
