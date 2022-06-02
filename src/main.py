@@ -1,10 +1,10 @@
 import requests
-from functions.online_ops import play_on_youtube, search_on_google
+from functions.online_ops import play_on_youtube, search_on_google, open_news, open_weather
 import pyttsx3
 import speech_recognition as sr
 from decouple import config
 from datetime import datetime
-from functions.os_ops import open_calculator, open_firefox, open_thunderbird, open_notepad, open_terminal, open_zoom, open_files
+from functions.os_ops import open_calculator, open_firefox, open_thunderbird, open_notepad, open_terminal, open_zoom, open_files, end_session
 from random import choice
 from utils import opening_text
 from pprint import pprint
@@ -91,8 +91,7 @@ if __name__ == '__main__':
             open_notepad()
 
         elif 'open terminal' in query or 'open terminal' in query:
-            exit_code = sp.call('/opt/VoiceAssist/src/functions/terminal.sh')
-            print(exit_code)
+            open_terminal()
 
         elif 'open firefox' in query:
             open_firefox()
@@ -120,12 +119,10 @@ if __name__ == '__main__':
             search_on_google(query)
 
         elif 'news' in query:
-            exit_code = sp.call('/opt/VoiceAssist/src/functions/news.sh')
-            print(exit_code)
+            open_news()
 
         elif 'weather' in query:
-            exit_code = sp.call('/opt/VoiceAssist/src/functions/weather.sh')
-            print(exit_code)
+            open_weather()
           
         elif "end session" in query:
             end_session()

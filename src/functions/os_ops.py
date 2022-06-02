@@ -36,3 +36,7 @@ def open_files():
 def end_session():
     exit_code = sp.call('/opt/VoiceAssist/src/functions/endsession.sh')
     print(exit_code)
+
+def open_terminal():
+    exit_code = sp.call('/opt/VoiceAssist/src/functions/terminal.sh')
+    print(exit_code)
