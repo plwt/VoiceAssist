@@ -1,17 +1,17 @@
-import requests
 from functions.online_ops import play_on_youtube, search_on_google, open_news, open_weather
 from functions.os_ops import open_calculator, open_firefox, open_thunderbird, open_notepad, open_terminal, open_zoom, open_files, end_session
 import pyttsx3
 import speech_recognition as sr
-from decouple import config
 from datetime import datetime
 from random import choice
 from utils import opening_text
-from pprint import pprint
-import webbrowser
+#from pprint import pprint
+#import webbrowser
+#from decouple import config
+#import requests
 
 
-USERNAME = config('USER')
+# USERNAME = config('USER')
 # BOTNAME = config('BOTNAME')
 
 
@@ -42,15 +42,11 @@ def greet_user():
     
     hour = datetime.now().hour
     if (hour >= 1) and (hour < 12):
-       # speak(f"Good Morning {USERNAME}")
         speak(f"Good morning")
     elif (hour >= 12) and (hour < 16):
-        # speak(f"Good afternoon {USERNAME}")
         speak(f"Good afternoon")
     elif (hour >= 16) and (hour < 24):
-        # speak(f"Good Evening {USERNAME}")
-        speak (f"Good evening")
-    # speak(f"I am {BOTNAME}. How may I assist you?")
+        speak(f"Good evening")
         speak(f"How can I help you?")
 
 # Takes Input from User
@@ -64,7 +60,7 @@ def take_user_input():
         audio = r.listen(source)
 
     try:
-        print('Recognizing...')
+        print('Recognising...')
         query = r.recognize_google(audio, language='en-gb')
         if not 'exit' in query or 'stop' in query:
             speak(choice(opening_text))
