@@ -8,12 +8,8 @@ paths = {
     'thunderbird': "/opt/thunderbird/thunderbird-bin",
     'zoom': "/snap/bin/zoom-client",
     'files': "thunar",
-    'terminal': "/bin/xfce4-terminal",
-    'end_session': "xfce4-session-logout"
-    
-
+        
 }
-
 
 def open_notepad():
     sp.Popen(paths['notepad'])

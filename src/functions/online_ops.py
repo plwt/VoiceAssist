@@ -5,13 +5,6 @@ from decouple import config
 import subprocess as sp
 
 
-# NEWS_API_KEY = config("NEWS_API_KEY")
-# OPENWEATHER_APP_ID = config("OPENWEATHER_APP_ID")
-# TMDB_API_KEY = config("TMDB_API_KEY")
-# EMAIL = config("EMAIL")
-# PASSWORD = config("PASSWORD")
-
-
 def play_on_youtube(video):
     kit.playonyt(video)
 

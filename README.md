@@ -10,24 +10,7 @@
 - Portaudio install - https://stackoverflow.com/questions/35708238/installing-pyaudio-with-pip-in-a-virtualenv and https://stackoverflow.com/questions/50457197/pyaudio-installation-failure-on-ubuntu
 - Voice options https://linuxhint.com/command-line-text-speech-apps-linux/ and https://levelup.gitconnected.com/make-your-python-program-speak-310766534fbf and https://scriptverse.academy/tutorials/python-text-to-speech.html
 - pyttsx3 options https://pyttsx3.readthedocs.io/en/latest/engine.html#changing-voices
-- Opening applications - https://stackoverflow.com/questions/51329742/how-to-write-a-python-script-to-open-applications-in-linux-mint
 
-- Shutdown dialogue - https://askubuntu.com/questions/771166/how-can-i-safely-shut-down-xfce-from-the-terminal
-- Possibly use this to open terminal at core folder location - https://stackoverflow.com/questions/71281841/use-subprocess-to-open-terminal-and-run-a-command
-
-
-
-### Contents of .env file:
-
-```
-USER=None
-BOTNAME=JARVIS
-# EMAIL=None
-# PASSWORD=None
-# NEWS_API_KEY=None
-# OPENWEATHER_APP_ID=None
-# TMDB_API_KEY=None
-```
 
 ### Requirements
 
@@ -45,17 +28,15 @@ BOTNAME=JARVIS
 - Open files
 - Open Zoom
 - Open calculator
-- Open YouTube (follow up question)
-- Search on Google (follow up question)
-- End session (does not work)
-
-- What is the news? (does not work)
-- What is the weather? (does not work)
-- Open terminal (does not work)
+- Open YouTube 
+- Search on Google
+- End session
+- What is the news? 
+- What is the weather?
+- Open terminal
 
 ## To Do
 
 1. add full code comments
 2. Add install requirements to .sh
 3. Make a clean up .sh
-4. fix bugs

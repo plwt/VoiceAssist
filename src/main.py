@@ -1,15 +1,14 @@
 import requests
 from functions.online_ops import play_on_youtube, search_on_google, open_news, open_weather
+from functions.os_ops import open_calculator, open_firefox, open_thunderbird, open_notepad, open_terminal, open_zoom, open_files, end_session
 import pyttsx3
 import speech_recognition as sr
 from decouple import config
 from datetime import datetime
-from functions.os_ops import open_calculator, open_firefox, open_thunderbird, open_notepad, open_terminal, open_zoom, open_files, end_session
 from random import choice
 from utils import opening_text
 from pprint import pprint
 import webbrowser
-import subprocess as sp
 
 
 USERNAME = config('USER')
@@ -42,13 +41,13 @@ def greet_user():
     """Greets the user according to the time"""
     
     hour = datetime.now().hour
-    if (hour >= 6) and (hour < 12):
+    if (hour >= 1) and (hour < 12):
        # speak(f"Good Morning {USERNAME}")
         speak(f"Good morning")
     elif (hour >= 12) and (hour < 16):
         # speak(f"Good afternoon {USERNAME}")
         speak(f"Good afternoon")
-    elif (hour >= 16) and (hour < 19):
+    elif (hour >= 16) and (hour < 24):
         # speak(f"Good Evening {USERNAME}")
         speak (f"Good evening")
     # speak(f"I am {BOTNAME}. How may I assist you?")
