@@ -9,6 +9,7 @@ from random import choice
 from utils import opening_text
 from pprint import pprint
 import webbrowser
+import subprocess as sp
 
 
 USERNAME = config('USER')
@@ -90,7 +91,8 @@ if __name__ == '__main__':
             open_notepad()
 
         elif 'open terminal' in query or 'open terminal' in query:
-            open_terminal()
+            exit_code = sp.call('/opt/VoiceAssist/src/functions/terminal.sh')
+            print(exit_code)
 
         elif 'open firefox' in query:
             open_firefox()
@@ -118,10 +120,12 @@ if __name__ == '__main__':
             search_on_google(query)
 
         elif 'news' in query:
-            get_latest_news()
+            exit_code = sp.call('/opt/VoiceAssist/src/functions/news.sh')
+            print(exit_code)
 
         elif 'weather' in query:
-            get_weather_report()
+            exit_code = sp.call('/opt/VoiceAssist/src/functions/weather.sh')
+            print(exit_code)
           
         elif "end session" in query:
             end_session()
