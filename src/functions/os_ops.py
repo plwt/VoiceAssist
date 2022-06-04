@@ -34,5 +34,5 @@ def end_session():
     print(endsession)
 
 def open_terminal():
-    openterminal=sp.Popen(["exo-open", "--launch", "TerminalEmulator"])
+    openterminal=sp.Popen(["exo-open", "--launch", "TerminalEmulator", "--working-directory=/home/"])
     print(openterminal)
