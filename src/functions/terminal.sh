@@ -2,4 +2,4 @@
 
 exo-open --launch TerminalEmulator
 
-cd
+cd ~
