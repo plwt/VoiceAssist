@@ -1,4 +1,3 @@
-#import os
 import subprocess as sp
 
 paths = {
@@ -8,7 +7,6 @@ paths = {
     'thunderbird': "/opt/thunderbird/thunderbird-bin",
     'zoom': "/snap/bin/zoom-client",
     'files': "thunar",
-        
 }
 
 def open_notepad():
