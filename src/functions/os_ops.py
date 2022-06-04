@@ -1,4 +1,4 @@
-import subprocess as sp
+import subprocess
 
 paths = {
     'notepad': "mousepad",
@@ -10,27 +10,27 @@ paths = {
 }
 
 def open_notepad():
-    sp.Popen(paths['notepad'])
+    subprocess.Popen(paths['notepad'])
 
 def open_calculator():
-    sp.Popen(paths['calculator'])
+    subprocess.Popen(paths['calculator'])
 
 def open_firefox():
-    sp.Popen(paths['firefox'])
+    subprocess.Popen(paths['firefox'])
 
 def open_thunderbird():
-    sp.Popen(paths['thunderbird'])
+    subprocess.Popen(paths['thunderbird'])
   
 def open_zoom():
-    sp.Popen(paths['zoom'])
+    subprocess.Popen(paths['zoom'])
 
 def open_files():
-    sp.Popen(paths['files'])
+    subprocess.Popen(paths['files'])
     
 def end_session():
-    endsession = sp.Popen("xfce4-session-logout")
+    endsession = subprocess.Popen("xfce4-session-logout")
     print(endsession)
 
 def open_terminal():
-    openterminal=sp.Popen(["exo-open", "--launch", "TerminalEmulator", "--working-directory=/home/"])
+    openterminal=subprocess.Popen(["exo-open", "--launch", "TerminalEmulator", "--working-directory=/home/"])
     print(openterminal)
