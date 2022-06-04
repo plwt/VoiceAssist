@@ -30,9 +30,9 @@ def open_files():
     sp.Popen(paths['files'])
     
 def end_session():
-    exit_code = sp.Popen(("xfce4-session-logout")
-    print(exit_code)
+    endsession = sp.Popen("xfce4-session-logout")
+    print(endsession)
 
 def open_terminal():
-    exit_code=sp.Popen(("exo-open", "--launch", "TerminalEmulator"))
-    print(exit_code)
+    openterminal=sp.Popen("exo-open", "--launch", "TerminalEmulator")
+    print(openterminal)
