@@ -23,9 +23,9 @@
 - What is the news? 
 - What is the weather?
 - Open terminal
+- Exit (or) Stop
 
 ## To Do
 
-1. add full code comments
-2. Add install requirements to .sh
-3. Make a clean up .sh
+1. Add install .sh
+2. Add a uninstall .sh

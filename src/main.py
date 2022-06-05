@@ -1,9 +1,11 @@
+#Online functions
 from functions.online_ops import (
     play_on_youtube,
     search_on_google,
     open_news,
     open_weather,
 )
+#On device functions
 from functions.os_ops import (
     open_calculator,
     open_firefox,
@@ -14,10 +16,19 @@ from functions.os_ops import (
     open_files,
     end_session,
 )
+#Required for text to speach conversion
 import pyttsx3
+
+#Required for speach to text conversion
 import speech_recognition as sr
+
+#Required for date and time
 from datetime import datetime
+
+#Required for random responses
 from random import choice
+
+#"Working on it" type responses
 from utils import opening_text
 
 # from pprint import pprint
@@ -29,7 +40,7 @@ from utils import opening_text
 # USERNAME = config('USER')
 # BOTNAME = config('BOTNAME')
 
-
+#Set up text to speech engine
 engine = pyttsx3.init()
 
 # Set Rate
@@ -43,7 +54,6 @@ voices = engine.getProperty("voices")
 engine.setProperty("voice", voices[10].id)
 
 
-# Text to Speech Conversion
 def speak(text):
     """Used to speak whatever text is passed to it"""
 
@@ -51,7 +61,6 @@ def speak(text):
     engine.runAndWait()
 
 
-# Greet the user
 def greet_user():
     """Greets the user according to the time"""
 
@@ -65,10 +74,8 @@ def greet_user():
         speak(f"How can I help you?")
 
 
-# Takes Input from User
 def take_user_input():
-    """Takes user input, recognizes it using Speech Recognition module and converts it into text"""
-
+    """Takes user input and converts it into text"""
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening....")

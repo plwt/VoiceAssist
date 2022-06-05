@@ -18,7 +18,7 @@ python3 -m pip install --upgrade SpeechRecognition
 # run the script
 python3 /opt/VoiceAssist/src/main.py
 
-sleep 5m
+sleep 1m
 
 deactivate
 
