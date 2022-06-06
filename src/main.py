@@ -15,6 +15,11 @@ from functions.os_ops import (
     open_zoom,
     open_files,
     end_session,
+    open_code,
+    open_volume,
+    mute_volume,
+    unmute_volume,
+
 )
 #Required for text to speach conversion
 import pyttsx3
@@ -152,7 +157,7 @@ if __name__ == "__main__":
             open_volume()
 
         elif "mute" in query:
-            open_mute()
+            mute_volume()
         
         elif "unmute" in query:
-            open_unmute()
+            unmute_volume()
