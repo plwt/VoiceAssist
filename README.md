@@ -23,3 +23,13 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - What is the news? 
 - What is the weather?
 - Exit (or) Stop
+
+### Possible future features
+
+- Connect Bluetooth
+- Open new LibreOffice Word doc
+- Open new LibreOffice Calcs doc
+- Take a note
+- Lock screen
+- Minimise all
+- Close apps (specify)
