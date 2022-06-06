@@ -4,7 +4,7 @@ A voice assistant for Linux.  This has been designed for Debian 11 Xfce.  Please
 
 Inspired by and forked from https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/
 
-# Commands
+## Commands
 
 - Open calculator
 - Open code
@@ -15,17 +15,11 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open Thunderbird
 - Open Zoom
 - End session
-
 - Adjust speaker volume
 - Mute volume
 - Unmute volume
-
 - Open YouTube
 - Search on Google
-
 - What is the news? 
 - What is the weather?
-
 - Exit (or) Stop
-
-
