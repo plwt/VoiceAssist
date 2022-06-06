@@ -15,8 +15,11 @@
 - What is the weather?
 - Open terminal
 - Exit (or) Stop
+- Open code
+- Adjust speaker volume
+- Mute volume
+- Unmute volume
 
 ## To Do
 
 1. Add install .sh
-2. Add a uninstall .sh

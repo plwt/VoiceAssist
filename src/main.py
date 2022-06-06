@@ -144,3 +144,15 @@ if __name__ == "__main__":
 
         elif "end session" in query:
             end_session()
+
+        elif "code" in query:
+            open_code()
+
+        elif "volume" in query:
+            open_volume()
+
+        elif "mute" in query:
+            open_mute()
+        
+        elif "unmute" in query:
+            open_unmute()

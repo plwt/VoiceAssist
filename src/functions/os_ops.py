@@ -8,6 +8,10 @@ paths = {
     "thunderbird": "/opt/thunderbird/thunderbird-bin",
     "zoom": "/snap/bin/zoom-client",
     "files": "thunar",
+    "code": "code",
+    "volume": "alsamixer",
+    "mute": "amixer set Master mute",
+    "unmute": "amixer set Master unmute",
 }
 
 #Open the note pad
@@ -45,3 +49,22 @@ def open_terminal():
         ["exo-open", "--launch", "TerminalEmulator", "--working-directory=/home/"]
     )
     print(openterminal)
+
+#Opens the code editor
+def open_code():
+    subprocess.Popen(paths["code"])
+
+#Opens the volume control
+def open_volume():
+    subprocess.Popen(paths["volume"])
+
+#Mutes the volume
+def mute_volume():
+    subprocess.Popen(paths["mute"])
+
+#Unmutes the volume
+def unmute_volume():
+    subprocess.Popen(paths["unmute"])
+
+
+
