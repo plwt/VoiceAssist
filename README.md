@@ -33,3 +33,4 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Lock screen
 - Minimise all
 - Close apps (specify)
+- Open maps (OSM in browser)
