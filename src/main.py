@@ -25,6 +25,7 @@ from functions.os_ops import (
     close_graphics,
     close_calculator,
     close_code,
+    lock_screen,
 
 )
 #Required for text to speach conversion
@@ -185,3 +186,6 @@ if __name__ == "__main__":
             
         elif "close code" in query:
             close_code()
+         
+        elif "lock screen" in query:
+            lock_screen()
