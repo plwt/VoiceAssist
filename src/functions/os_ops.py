@@ -13,6 +13,10 @@ paths = {
     "mute": "amixer set Master mute",
     "unmute": "amixer set Master unmute",
     "closezoom": "killall zoom",
+    "graphics": "gimp",
+    "closegraphics": "killall gimp",
+    "closecalculator": "killall mate-calc",
+    "closecode": "killall code",
 }
 
 #Open the note pad
@@ -70,6 +74,20 @@ def unmute_volume():
 #Closes Zoom
 def close_zoom():
     subprocess.Popen(paths["closezoom"])
+    
+#Opens GIMP
+def open_graphics():
+    subprocess.Popen(paths["graphics"])
+    
+#Closes GIMP
+def close_graphics():
+    subprocess.Popen(paths["closegraphics"])
+    
+#Closes calculator
+def close_calculator():
+    subprocess.Popen(paths["closecalculator"])
 
-
+#Closes the code editor
+def close_code():
+    subprocess.Popen(paths["closecode"])
 
