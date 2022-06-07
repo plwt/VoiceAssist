@@ -16,6 +16,7 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Close graphics
 - Open notepad
 - Open spreadsheet
+- Take screen shot
 - Open terminal
 - Open Thunderbird
 - Open Writer
@@ -32,9 +33,3 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - What is the weather?
 - Exit (or) Stop
 - Lock screen
-
-### Possible future features
-
-- Connect Bluetooth
-- Take a note
-- Minimise all
