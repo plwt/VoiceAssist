@@ -15,8 +15,12 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open graphics
 - Close graphics
 - Open notepad
+- Open spreadsheet
+- Close spreadsheet
 - Open terminal
 - Open Thunderbird
+- Open Writer
+- Close Writer
 - Open Zoom
 - Close Zoom
 - End session
@@ -34,7 +38,5 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 ### Possible future features
 
 - Connect Bluetooth
-- Open new LibreOffice Word doc
-- Open new LibreOffice Calcs doc
 - Take a note
 - Minimise all
