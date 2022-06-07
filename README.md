@@ -7,13 +7,18 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 ## Commands
 
 - Open calculator
+- Close calculator
 - Open code
+- Close code
 - Open files
 - Open Firefox
+- Open graphics
+- Close graphics
 - Open notepad
 - Open terminal
 - Open Thunderbird
 - Open Zoom
+- Close Zoom
 - End session
 - Adjust speaker volume
 - Mute volume
@@ -33,4 +38,3 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Take a note
 - Lock screen
 - Minimise all
-- Close apps (specify)
