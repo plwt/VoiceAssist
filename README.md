@@ -20,6 +20,7 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Unmute volume
 - Open YouTube
 - Search on Google
+- Open maps
 - What is the news? 
 - What is the weather?
 - Exit (or) Stop
@@ -33,4 +34,3 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Lock screen
 - Minimise all
 - Close apps (specify)
-- Open maps (OSM in browser)
