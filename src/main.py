@@ -28,6 +28,7 @@ from functions.os_ops import (
     lock_screen,
     open_spreadsheet,
     open_writer,
+    screen_shot,
 
 )
 #Required for text to speach conversion
@@ -197,3 +198,6 @@ if __name__ == "__main__":
             
         elif "open writer" in query:
             open_writer()
+          
+        elif "screen shot" in query:
+            screen_shot()
