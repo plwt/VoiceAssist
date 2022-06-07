@@ -17,6 +17,7 @@ paths = {
     "closegraphics": "killall gimp",
     "closecalculator": "killall mate-calc",
     "closecode": "killall code",
+    "lockscreen": "xdg-screensaver lock",
 }
 
 #Open the note pad
@@ -90,4 +91,8 @@ def close_calculator():
 #Closes the code editor
 def close_code():
     subprocess.Popen(paths["closecode"])
+    
+#Locks screen
+def lock_screen():
+    subprocess.Popen(paths["lockscreen"])
 
