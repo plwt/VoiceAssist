@@ -21,6 +21,10 @@ from functions.os_ops import (
     mute_volume,
     unmute_volume,
     close_zoom,
+    open_graphics,
+    close_graphics,
+    close_calculator,
+    close_code,
 
 )
 #Required for text to speach conversion
@@ -169,3 +173,15 @@ if __name__ == "__main__":
             
         elif "close zoom" in query:
             close_zoom()
+            
+        elif "open graphics" in query:
+            open_graphics()
+            
+        elif "close graphics" in query:
+            close_graphics()
+            
+        elif "close calculator" in query:
+            close_calculator()
+            
+        elif "close code" in query:
+            close_code()
