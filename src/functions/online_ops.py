@@ -22,3 +22,8 @@ def open_news():
 def open_weather():
     exit_code = subprocess.Popen(("xdg-open", "https://openweathermap.org/"))
     print(exit_code)
+    
+#Opens the browser and displays maps
+def open_maps():
+    exit_code=subprocess.Popen(("xdg-open", "https://www.openstreetmap.org"))
+    print(exit_code)
