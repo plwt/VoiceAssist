@@ -26,6 +26,8 @@ from functions.os_ops import (
     close_calculator,
     close_code,
     lock_screen,
+    open_spreadsheet,
+    open_writer,
 
 )
 #Required for text to speach conversion
@@ -189,3 +191,9 @@ if __name__ == "__main__":
          
         elif "lock screen" in query:
             lock_screen()
+            
+        elif "open spreadsheet" in query:
+            open_spreadsheet()
+            
+        elif "open writer" in query:
+            open_writer()
