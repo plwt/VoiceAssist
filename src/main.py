@@ -4,6 +4,7 @@ from functions.online_ops import (
     search_on_google,
     open_news,
     open_weather,
+    open_maps,
 )
 #On device functions
 from functions.os_ops import (
@@ -161,3 +162,6 @@ if __name__ == "__main__":
         
         elif "unmute" in query:
             unmute_volume()
+            
+        elif "maps" in query:
+            open_maps()
