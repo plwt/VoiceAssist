@@ -18,6 +18,8 @@ paths = {
     "closecalculator": "killall mate-calc",
     "closecode": "killall code",
     "lockscreen": "xdg-screensaver lock",
+    "spreadsheet": "libreoffice --calc",
+    "writer": "libreoffice --writer",
 }
 
 #Open the note pad
@@ -95,4 +97,12 @@ def close_code():
 #Locks screen
 def lock_screen():
     subprocess.Popen(paths["lockscreen"])
+    
+#Opens Libreoffice Calc
+def open_spreadsheet():
+    subprocesss.Popen(paths["spreadsheet"])
+    
+#Opens Libreoffice Writer
+def open_writer():
+    subprocess.Popen(paths["writer"])
 
