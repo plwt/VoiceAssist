@@ -12,6 +12,7 @@ paths = {
     "volume": "alsamixer",
     "mute": "amixer set Master mute",
     "unmute": "amixer set Master unmute",
+    "closezoom": "killall zoom",
 }
 
 #Open the note pad
@@ -65,6 +66,10 @@ def mute_volume():
 #Unmutes the volume
 def unmute_volume():
     subprocess.Popen(paths["unmute"])
+
+#Closes Zoom
+def close_zoom():
+    subprocess.Popen(paths["closezoom"])
 
 
 
