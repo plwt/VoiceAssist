@@ -20,11 +20,7 @@ from functions.os_ops import (
     open_volume,
     mute_volume,
     unmute_volume,
-    close_zoom,
     open_graphics,
-    close_graphics,
-    close_calculator,
-    close_code,
     lock_screen,
     open_spreadsheet,
     open_writer,
@@ -174,22 +170,10 @@ if __name__ == "__main__":
             
         elif "maps" in query:
             open_maps()
-            
-        elif "close zoom" in query:
-            close_zoom()
-            
+                    
         elif "open graphics" in query:
             open_graphics()
-            
-        elif "close graphics" in query:
-            close_graphics()
-            
-        elif "close calculator" in query:
-            close_calculator()
-            
-        elif "close code" in query:
-            close_code()
-         
+             
         elif "lock screen" in query:
             lock_screen()
             

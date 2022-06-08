@@ -12,14 +12,11 @@ paths = {
     "volume": "alsamixer",
     "mute": "amixer set Master mute",
     "unmute": "amixer set Master unmute",
-    "closezoom": "killall zoom",
     "graphics": "gimp",
-    "closegraphics": "killall gimp",
-    "closecalculator": "killall mate-calc",
-    "closecode": "killall code",
     "lockscreen": "xdg-screensaver lock",
     "spreadsheet": "libreoffice --calc",
     "writer": "libreoffice --writer",
+    "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
 }
 
 #Open the note pad
@@ -73,27 +70,11 @@ def mute_volume():
 #Unmutes the volume
 def unmute_volume():
     subprocess.Popen(paths["unmute"])
-
-#Closes Zoom
-def close_zoom():
-    subprocess.Popen(paths["closezoom"])
     
 #Opens GIMP
 def open_graphics():
     subprocess.Popen(paths["graphics"])
-    
-#Closes GIMP
-def close_graphics():
-    subprocess.Popen(paths["closegraphics"])
-    
-#Closes calculator
-def close_calculator():
-    subprocess.Popen(paths["closecalculator"])
-
-#Closes the code editor
-def close_code():
-    subprocess.Popen(paths["closecode"])
-    
+        
 #Locks screen
 def lock_screen():
     subprocess.Popen(paths["lockscreen"])
@@ -108,6 +89,4 @@ def open_writer():
 
 #Takes screen shot and saves file
 def screen_shot():
-    subprocess.Popen(
-        ["exo-open", "--launch", "xfce4-screenshooter", "--fullscreen", "--save", "~/Screenshots/"Screenshot $(date"", "-d", "today", "+%Y-%m-%d %H:%M").png"]
-    )paths["screenshot"])
+    subprocess.Popen(paths["screenshot"]

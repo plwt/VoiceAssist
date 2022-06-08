@@ -10,13 +10,10 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 ## Commands
 
 - Open calculator
-- Close calculator
 - Open code
-- Close code
 - Open files
 - Open Firefox
 - Open graphics
-- Close graphics
 - Open notepad
 - Open spreadsheet
 - Take screen shot
@@ -24,7 +21,6 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open Thunderbird
 - Open Writer
 - Open Zoom
-- Close Zoom
 - End session
 - Adjust speaker volume
 - Mute volume
