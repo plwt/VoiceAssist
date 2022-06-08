@@ -1,6 +1,3 @@
-# Under construction - beware of bugs
-
-
 # VoiceAssist
 
 A voice assistant for Linux.  This has been designed for Debian 11 Xfce.  Please check the file paths in os_ops.py before use to make sure they are correct for your device.
