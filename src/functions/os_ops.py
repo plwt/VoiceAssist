@@ -10,8 +10,8 @@ paths = {
     "files": "thunar",
     "code": "code",
     "volume": "alsamixer",
-    "mute": "amixer set Master mute",
-    "unmute": "amixer set Master unmute",
+    "mute": "/opt/VoiceAssist/src/functions/mute.sh",
+    "unmute": "/opt/VoiceAssist/src/functions/unmute.sh",
     "graphics": "gimp",
     "lockscreen": "xdg-screensaver lock",
     "spreadsheet": "libreoffice --calc",
@@ -65,7 +65,10 @@ def open_volume():
 
 #Mutes the volume
 def mute_volume():
-    subprocess.Popen(paths["mute"])
+    mutevolume = subprocess.Popen(
+        ["amixer", "set", "Master", "mute"]
+    )
+    print(mutevolume)
 
 #Unmutes the volume
 def unmute_volume():
