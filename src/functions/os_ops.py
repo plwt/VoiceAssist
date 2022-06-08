@@ -20,7 +20,6 @@ paths = {
     "lockscreen": "xdg-screensaver lock",
     "spreadsheet": "libreoffice --calc",
     "writer": "libreoffice --writer",
-    "screenshot": "xfce4-screenshooter --fullscreen --save ~/Screenshots/"Screenshot $(date -d "today" +"%Y-%m-%d %H:%M").png"",
 }
 
 #Open the note pad
@@ -109,4 +108,6 @@ def open_writer():
 
 #Takes screen shot and saves file
 def screen_shot():
-    subprocess.Popen(paths["screenshot"])
+    subprocess.Popen(
+        ["exo-open", "--launch", "xfce4-screenshooter", "--fullscreen", "--save", "~/Screenshots/"Screenshot $(date"", "-d", "today", "+%Y-%m-%d %H:%M").png"]
+    )paths["screenshot"])
