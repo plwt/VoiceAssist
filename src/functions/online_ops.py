@@ -25,5 +25,5 @@ def open_weather():
     
 #Opens the browser and displays maps
 def open_maps():
-    exit_code=subprocess.Popen(("xdg-open", "https://www.openstreetmap.org"))
+    exit_code = subprocess.Popen(("xdg-open", "https://www.openstreetmap.org"))
     print(exit_code)

@@ -13,19 +13,20 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open graphics
 - Open notepad
 - Open spreadsheet
-- Take screen shot
 - Open terminal
 - Open Thunderbird
 - Open Writer
 - Open Zoom
 - End session
-- Adjust speaker volume
-- Mute volume
-- Unmute volume
+- Quiet
+- Loud
 - Open YouTube
 - Search on Google
 - Open maps
 - What is the news? 
 - What is the weather?
 - Exit (or) Stop
+
+###Needs work
 - Lock screen
+- Take screen shot

@@ -17,7 +17,6 @@ from functions.os_ops import (
     open_files,
     end_session,
     open_code,
-    open_volume,
     mute_volume,
     unmute_volume,
     open_graphics,
@@ -159,13 +158,10 @@ if __name__ == "__main__":
         elif "code" in query:
             open_code()
 
-        elif "volume" in query:
-            open_volume()
-
-        elif "mute" in query:
+        elif "quiet" in query:
             mute_volume()
         
-        elif "unmute" in query:
+        elif "loud" in query:
             unmute_volume()
             
         elif "maps" in query:

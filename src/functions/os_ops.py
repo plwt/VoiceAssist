@@ -59,10 +59,6 @@ def open_terminal():
 def open_code():
     subprocess.Popen(paths["code"])
 
-#Opens the volume control
-def open_volume():
-    subprocess.Popen(paths["volume"])
-
 #Mutes the volume
 def mute_volume():
     mutevolume = subprocess.Popen(
@@ -92,4 +88,4 @@ def open_writer():
 
 #Takes screen shot and saves file
 def screen_shot():
-    subprocess.Popen(paths["screenshot"]
+    subprocess.Popen(paths["screenshot"])
