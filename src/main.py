@@ -1,13 +1,14 @@
-#Online functions
 from functions.online_ops import (
+    # Online functions
     play_on_youtube,
     search_on_google,
     open_news,
     open_weather,
     open_maps,
 )
-#On device functions
+
 from functions.os_ops import (
+    # On device functions
     open_calculator,
     open_firefox,
     open_thunderbird,
@@ -65,14 +66,14 @@ engine.setProperty("voice", voices[10].id)
 
 
 def speak(text):
-    """Used to speak whatever text is passed to it"""
+    # Used to speak whatever text is passed to it
 
     engine.say(text)
     engine.runAndWait()
 
 
 def greet_user():
-    """Greets the user according to the time"""
+    # Greets the user according to the time
 
     hour = datetime.now().hour
     if (hour >= 1) and (hour < 12):
@@ -85,7 +86,7 @@ def greet_user():
 
 
 def take_user_input():
-    """Takes user input and converts it into text"""
+    # Takes user input and converts it into text
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening....")
