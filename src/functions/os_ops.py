@@ -19,73 +19,73 @@ paths = {
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
 }
 
-#Open the note pad
 def open_notepad():
+    # Open the note pad
     subprocess.Popen(paths["notepad"])
 
-#Open the calculator
 def open_calculator():
+    # Open the calculator
     subprocess.Popen(paths["calculator"])
 
-#Open firefox
 def open_firefox():
+    # Open firefox
     subprocess.Popen(paths["firefox"])
 
-#Open thunderbird
 def open_thunderbird():
+    # Open thunderbird
     subprocess.Popen(paths["thunderbird"])
 
-#Open zoom
 def open_zoom():
+    # Open zoom
     subprocess.Popen(paths["zoom"])
 
-#Open the file manager
 def open_files():
+    # Open the file manager
     subprocess.Popen(paths["files"])
 
-#Opens the shutdown menu
 def end_session():
+    # Opens the shutdown menu
     endsession = subprocess.Popen("xfce4-session-logout")
     print(endsession)
 
-#Opens the terminal
 def open_terminal():
+    # Opens the terminal
     openterminal = subprocess.Popen(
         ["exo-open", "--launch", "TerminalEmulator", "--working-directory=/home/"]
     )
     print(openterminal)
 
-#Opens the code editor
 def open_code():
+    # Opens the code editor
     subprocess.Popen(paths["code"])
 
-#Mutes the volume
 def mute_volume():
+    # Mutes the volume
     mutevolume = subprocess.Popen(
         ["amixer", "set", "Master", "mute"]
     )
     print(mutevolume)
 
-#Unmutes the volume
 def unmute_volume():
+    # Unmutes the volume
     subprocess.Popen(paths["unmute"])
     
-#Opens GIMP
 def open_graphics():
+    # Opens GIMP
     subprocess.Popen(paths["graphics"])
         
-#Locks screen
 def lock_screen():
+    # Locks screen
     subprocess.Popen(paths["lockscreen"])
     
-#Opens Libreoffice Calc
 def open_spreadsheet():
+    # Opens Libreoffice Calc
     subprocesss.Popen(paths["spreadsheet"])
     
-#Opens Libreoffice Writer
 def open_writer():
+    # Opens Libreoffice Writer
     subprocess.Popen(paths["writer"])
 
-#Takes screen shot and saves file
 def screen_shot():
+    # Takes screen shot and saves file
     subprocess.Popen(paths["screenshot"])
