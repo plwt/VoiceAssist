@@ -22,7 +22,7 @@ from functions.os_ops import (
     unmute_volume,
     open_graphics,
     lock_screen,
-    open_spreadsheet,
+    open_office,
     open_writer,
     screen_shot,
 
@@ -174,11 +174,8 @@ if __name__ == "__main__":
         elif "lock screen" in query:
             lock_screen()
             
-        elif "open spreadsheet" in query:
-            open_spreadsheet()
+        elif "open office" in query:
+            open_office()
             
-        elif "open writer" in query:
-            open_writer()
-          
         elif "screen shot" in query:
             screen_shot()

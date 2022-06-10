@@ -12,10 +12,9 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open Firefox
 - Open graphics
 - Open notepad
-- Open spreadsheet
+- Open office
 - Open terminal
 - Open Thunderbird
-- Open Writer
 - Open Zoom
 - End session
 - Quiet

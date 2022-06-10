@@ -14,8 +14,7 @@ paths = {
     "unmute": "/opt/VoiceAssist/src/functions/unmute.sh",
     "graphics": "gimp",
     "lockscreen": "xdg-screensaver lock",
-    "spreadsheet": "libreoffice --calc",
-    "writer": "libreoffice --writer",
+    "office": "/usr/bin/libreoffice",
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
 }
 
@@ -78,14 +77,10 @@ def lock_screen():
     # Locks screen
     subprocess.Popen(paths["lockscreen"])
     
-def open_spreadsheet():
-    # Opens Libreoffice Calc
-    subprocesss.Popen(paths["spreadsheet"])
+def open_office():
+    # Opens Libreoffice
+    subprocesss.Popen(paths["office"])
     
-def open_writer():
-    # Opens Libreoffice Writer
-    subprocess.Popen(paths["writer"])
-
 def screen_shot():
     # Takes screen shot and saves file
     subprocess.Popen(paths["screenshot"])
