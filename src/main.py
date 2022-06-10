@@ -23,7 +23,6 @@ from functions.os_ops import (
     open_graphics,
     lock_screen,
     open_office,
-    open_writer,
     screen_shot,
 
 )

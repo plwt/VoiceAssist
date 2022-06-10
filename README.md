@@ -12,7 +12,6 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open Firefox
 - Open graphics
 - Open notepad
-- Open office
 - Open terminal
 - Open Thunderbird
 - Open Zoom
@@ -29,3 +28,4 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 ### Needs work
 - Lock screen
 - Take screen shot
+- Open office
