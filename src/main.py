@@ -115,10 +115,10 @@ if __name__ == "__main__":
     while True:
         query = take_user_input().lower()
 
-        if "open notepad" in query:
+        if "open" in query and "notepad" in query:
             open_notepad()
 
-        elif "open terminal" in query or "open terminal" in query:
+        elif "open" in query and "terminal" in query:
             open_terminal()
 
         elif "open firefox" in query:
@@ -155,7 +155,7 @@ if __name__ == "__main__":
         elif "end session" in query:
             end_session()
 
-        elif "code" in query:
+        elif "open" in query and "code" in query:
             open_code()
 
         elif "quiet" in query:
