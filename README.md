@@ -7,7 +7,6 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 ## Commands
 
 - Open calculator
-- Close calculator
 - Open code
 - Close code
 - Open files
@@ -36,3 +35,4 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 ### Needs work
 
 - Open office
+- Close calculator
