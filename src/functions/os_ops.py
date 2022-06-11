@@ -22,9 +22,17 @@ def open_notepad():
     # Open the note pad
     subprocess.Popen(paths["notepad"])
 
+def close_notepad():
+    # Closes the note pad
+    subprocess.Popen(["killall", "mousepad"])
+
 def open_calculator():
     # Open the calculator
     subprocess.Popen(paths["calculator"])
+
+def close_calulator():
+    # Closes the calculator
+    subprocess.Popen(["killall", "mate-calculator"])
 
 def open_firefox():
     # Open firefox
@@ -38,9 +46,17 @@ def open_zoom():
     # Open zoom
     subprocess.Popen(paths["zoom"])
 
+def close_zoom():
+    # Closes zoom
+    subprocess.Popen(["killall", "zoom-client"])
+
 def open_files():
     # Open the file manager
     subprocess.Popen(paths["files"])
+
+def close_files():
+    # Closes the file manager
+    subprocess.Popen(["killall", "thunar"])
 
 def end_session():
     # Opens the shutdown menu
@@ -58,6 +74,10 @@ def open_code():
     # Opens the code editor
     subprocess.Popen(paths["code"])
 
+def close_code():
+    # Closes the code editor
+    subprocess.Popen(["killall", "code"])
+
 def mute_volume():
     # Mutes the volume
     mutevolume = subprocess.Popen(
@@ -72,6 +92,10 @@ def unmute_volume():
 def open_graphics():
     # Opens GIMP
     subprocess.Popen(paths["graphics"])
+
+def close_graphics():
+    # Closes GIMP
+    subprocess.Popen(["killall", "gimp"])
         
 def lock_screen():
     # Locks screen

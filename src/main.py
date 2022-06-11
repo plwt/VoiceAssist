@@ -10,17 +10,23 @@ from functions.online_ops import (
 from functions.os_ops import (
     # On device functions
     open_calculator,
+    close_calculator,
     open_firefox,
     open_thunderbird,
     open_notepad,
+    close_notepad,
     open_terminal,
     open_zoom,
+    close_zoom,
     open_files,
+    close_files,
     end_session,
     open_code,
+    close_code,
     mute_volume,
     unmute_volume,
     open_graphics,
+    close_graphics,
     lock_screen,
     open_office,
     screen_shot,
@@ -118,6 +124,9 @@ if __name__ == "__main__":
         if "open" in query and "notepad" in query:
             open_notepad()
 
+        elif "close" in query and "notepad" in query:
+            close_notepad()
+
         elif "open" in query and "terminal" in query:
             open_terminal()
 
@@ -130,11 +139,20 @@ if __name__ == "__main__":
         elif "open" in query and "calculator" in query:
             open_calculator()
 
+        elif "close" in query and "calculator" in query:
+            close_calculator()
+
         elif "open" in query and "zoom" in query:
             open_zoom()
+        
+        elif "close" in query and "zoom" in query:
+            close_zoom()
 
         elif "open" in query and "files" in query:
             open_files()
+
+        elif "close" in query and "files" in query:
+            close_files()
 
         elif "open" in query and "youtube" in query:
             speak("What do you want to play on Youtube?")
@@ -158,6 +176,9 @@ if __name__ == "__main__":
         elif "open" in query and "code" in query:
             open_code()
 
+        elif "close" in query and "code" in query:
+            close_code()
+
         elif "quiet" in query:
             mute_volume()
         
@@ -169,6 +190,9 @@ if __name__ == "__main__":
                     
         elif "open" in query and "graphics" in query:
             open_graphics()
+
+        elif "close" in query and "graphics" in query:
+            close_graphics()
              
         elif "lock screen" in query:
             lock_screen()
