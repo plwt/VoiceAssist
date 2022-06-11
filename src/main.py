@@ -121,22 +121,22 @@ if __name__ == "__main__":
         elif "open" in query and "terminal" in query:
             open_terminal()
 
-        elif "open firefox" in query:
+        elif "open" in a query and "firefox" in query:
             open_firefox()
 
-        elif "open thunderbird" in query:
+        elif "open" in query and "thunderbird" in query:
             open_thunderbird()
 
-        elif "open calculator" in query:
+        elif "open" in query and "calculator" in query:
             open_calculator()
 
-        elif "open zoom" in query:
+        elif "open" in query and "zoom" in query:
             open_zoom()
 
-        elif "open files" in query:
+        elif "open" in query and "files" in query:
             open_files()
 
-        elif "youtube" in query:
+        elif "open" in query and "youtube" in query:
             speak("What do you want to play on Youtube?")
             video = take_user_input().lower()
             play_on_youtube(video)
@@ -167,7 +167,7 @@ if __name__ == "__main__":
         elif "maps" in query:
             open_maps()
                     
-        elif "open graphics" in query:
+        elif "open" in query and "graphics" in query:
             open_graphics()
              
         elif "lock screen" in query:
