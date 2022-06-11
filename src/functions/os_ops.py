@@ -4,6 +4,7 @@ import subprocess
 paths = {
     "notepad": "mousepad",
     "calculator": "/bin/mate-calculator",
+    "closecalculator": "/opt/VoiceAssist/src/functions/closecalculator.sh",
     "firefox": "/opt/DevEdition/firefox-bin",
     "thunderbird": "/opt/thunderbird/thunderbird-bin",
     "zoom": "/snap/bin/zoom-client",
@@ -32,7 +33,7 @@ def open_calculator():
 
 def close_calculator():
     # Closes the calculator
-    subprocess.Popen(["killall", "mate-calculator"])
+    subprocess.Popen(paths[closecalculator])
 
 def open_firefox():
     # Open firefox

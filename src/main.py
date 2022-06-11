@@ -200,5 +200,5 @@ if __name__ == "__main__":
         elif "open office" in query:
             open_office()
             
-        elif "screen shot" in query:
+        elif "screen" in query and "shot" in query:
             screen_shot()
