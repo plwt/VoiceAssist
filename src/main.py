@@ -130,7 +130,7 @@ if __name__ == "__main__":
         elif "open" in query and "terminal" in query:
             open_terminal()
 
-        elif "open" in a query and "firefox" in query:
+        elif "open" in query and "firefox" in query:
             open_firefox()
 
         elif "open" in query and "thunderbird" in query:

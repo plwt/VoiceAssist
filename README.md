@@ -30,8 +30,9 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - What is the news? 
 - What is the weather?
 - Exit (or) Stop
-
-### Needs work
 - Lock screen
 - Take screen shot
+
+### Needs work
+
 - Open office

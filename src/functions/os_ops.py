@@ -13,7 +13,7 @@ paths = {
     "mute": "/opt/VoiceAssist/src/functions/mute.sh",
     "unmute": "/opt/VoiceAssist/src/functions/unmute.sh",
     "graphics": "gimp",
-    "lockscreen": "xdg-screensaver lock",
+    "lockscreen": "/opt/VoiceAssist/src/functions/lockscreen.sh",
     "office": "/usr/bin/libreoffice.sh",
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
 }
@@ -30,7 +30,7 @@ def open_calculator():
     # Open the calculator
     subprocess.Popen(paths["calculator"])
 
-def close_calulator():
+def close_calculator():
     # Closes the calculator
     subprocess.Popen(["killall", "mate-calculator"])
 
@@ -48,7 +48,7 @@ def open_zoom():
 
 def close_zoom():
     # Closes zoom
-    subprocess.Popen(["killall", "zoom-client"])
+    subprocess.Popen(["killall", "zoom"])
 
 def open_files():
     # Open the file manager
