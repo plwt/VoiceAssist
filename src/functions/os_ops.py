@@ -33,12 +33,8 @@ def open_calculator():
 
 def close_calculator():
     # Closes the calculator
-    #subprocess.Popen(paths["closecalculator"])
-    closecalculator = subprocess.Popen(
-         ["killall", "mate-calc"]
-    )
-    print(closecalculator)
-
+    subprocess.Popen(paths["closecalculator"])
+   
 def open_firefox():
     # Open firefox
     subprocess.Popen(paths["firefox"])
