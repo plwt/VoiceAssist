@@ -35,7 +35,7 @@ def close_calculator():
     # Closes the calculator
     #subprocess.Popen(paths["closecalculator"])
     closecalculator = subprocess.Popen(
-         ["killall", "mate-calculator"]
+         ["killall", "mate-calc"]
     )
     print(closecalculator)
 
