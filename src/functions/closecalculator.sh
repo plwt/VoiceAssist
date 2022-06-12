@@ -1,3 +1,3 @@
 #!/bin/bash
 
-killall mate-calculator
+killall mate-calc
