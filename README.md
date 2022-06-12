@@ -7,14 +7,14 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 ## Commands
 
 - Open calculator
-- Close calculator
-- Open code
+
+
 - Close code
 - Open files
-- Close files
+
 - Open Firefox
-- Open graphics
-- Close graphics
+
+
 - Open notepad
 - Close notepad
 - Open terminal
@@ -37,3 +37,8 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 - Open office
 - Close office
+- Close calculator
+- Open code
+- Close files
+- Open graphics
+- Close graphics
