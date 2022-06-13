@@ -8,7 +8,7 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 - Open calculator
 
-
+- Open code
 - Close code
 - Open files
 
@@ -38,7 +38,6 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open office
 - Close office
 - Close calculator
-- Open code
 - Close files
 - Open graphics
 - Close graphics
