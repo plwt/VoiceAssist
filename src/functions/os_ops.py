@@ -13,7 +13,7 @@ paths = {
     "volume": "alsamixer",
     "mute": "/opt/VoiceAssist/src/functions/mute.sh",
     "unmute": "/opt/VoiceAssist/src/functions/unmute.sh",
-    "graphics": "gimp",
+    "graphics": "/opt/VoiceAssist/src/functions/graphics.sh",
     "lockscreen": "/opt/VoiceAssist/src/functions/lockscreen.sh",
     "office": "/usr/bin/libreoffice.sh",
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
@@ -92,10 +92,7 @@ def unmute_volume():
     
 def open_graphics():
     # Opens GIMP
-    opengraphics = subprocess.Popen(
-        ["gimp"]
-    )
-    print(opengraphics)
+    subprocess.Popen(paths["graphics"])
 
 def close_graphics():
     # Closes GIMP
