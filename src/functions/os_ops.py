@@ -92,11 +92,17 @@ def unmute_volume():
     
 def open_graphics():
     # Opens GIMP
-    subprocess.Popen(paths["graphics"])
+    opengraphics = subprocess.Popen(
+        ["gimp"]
+    )
+    print(opengraphics)
 
 def close_graphics():
     # Closes GIMP
-    subprocess.Popen(["killall", "gimp"])
+    closegraphics = subprocess.Popen(
+        ["killall", "gimp"]
+    )
+    print(closegraphics)
         
 def lock_screen():
     # Locks screen
