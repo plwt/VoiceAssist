@@ -197,7 +197,7 @@ if __name__ == "__main__":
         elif "lock screen" in query:
             lock_screen()
             
-        elif "open office" in query:
+        elif "open" in query and "office" in query:
             open_office()
             
         elif "screen" in query and "shot" in query:
