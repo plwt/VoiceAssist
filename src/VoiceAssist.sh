@@ -9,6 +9,7 @@ chmod +x /opt/VoiceAssist/src/functions/lockscreen.sh
 chmod +x /opt/VoiceAssist/src/functions/closecalculator.sh
 chmod +x /opt/VoiceAssist/src/functions/code.sh
 chmod +x /opt/VoiceAssist/src/functions/graphics.sh
+chmod +x /opt/VoiceAssist/src/functions/office.sh
 
 python3 -m venv venv
 source venv/bin/activate
