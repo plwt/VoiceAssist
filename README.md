@@ -13,7 +13,7 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open files
 
 - Open Firefox
-
+- Open graphics
 
 - Open notepad
 - Close notepad
@@ -39,5 +39,4 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Close office
 - Close calculator
 - Close files
-- Open graphics
 - Close graphics
