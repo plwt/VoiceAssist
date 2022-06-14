@@ -15,7 +15,7 @@ paths = {
     "unmute": "/opt/VoiceAssist/src/functions/unmute.sh",
     "graphics": "/opt/VoiceAssist/src/functions/graphics.sh",
     "lockscreen": "/opt/VoiceAssist/src/functions/lockscreen.sh",
-    "office": "/usr/bin/libreoffice.sh",
+    "office": "/opt/VoiceAssist/src/functions/office.sh",
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
 }
 
