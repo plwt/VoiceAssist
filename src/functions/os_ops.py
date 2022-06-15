@@ -96,10 +96,7 @@ def open_graphics():
 
 def close_graphics():
     # Closes GIMP
-    closegraphics = subprocess.Popen(
-        ["killall", "gimp"]
-    )
-    print(closegraphics)
+    subprocess.Popen(["killall", "gimp"])
         
 def lock_screen():
     # Locks screen
