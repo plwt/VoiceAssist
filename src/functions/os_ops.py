@@ -57,7 +57,7 @@ def open_files():
 
 def close_files():
     # Closes the file manager
-    subprocess.Popen(["killall", "thunar"])
+    subprocess.Popen(["killall", "Thunar"])
 
 def end_session():
     # Opens the shutdown menu
