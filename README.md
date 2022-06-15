@@ -11,7 +11,7 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 - Open code
 - Close code
 - Open files
-
+- Cloe files
 - Open Firefox
 - Open graphics
 
@@ -39,5 +39,4 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 - Close office
 - Close calculator
-- Close files
 - Close graphics
