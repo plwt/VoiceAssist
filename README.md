@@ -37,6 +37,6 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 ### Needs work
 
-- Close office
+- Close office - ready to test
 - Close calculator - need to identify process name
 - Close graphics - need to identify process name
