@@ -103,9 +103,13 @@ def lock_screen():
     subprocess.Popen(paths["lockscreen"])
     
 def open_office():
-    # Opens Libreoffice
+    # Opens LibreOffice
     subprocess.Popen(paths["office"])
-    
+
+def close_office():
+    # Closes LibreOffice
+    subprocess.Popen(["killall", "libreoffice"])
+
 def screen_shot():
     # Takes screen shot and saves file
     subprocess.Popen(paths["screenshot"])
