@@ -29,6 +29,7 @@ from functions.os_ops import (
     close_graphics,
     lock_screen,
     open_office,
+    close_office,
     screen_shot,
 
 )
@@ -199,6 +200,9 @@ if __name__ == "__main__":
             
         elif "open" in query and "office" in query:
             open_office()
+
+        elif "close" in query and "office" in query:
+            close_office()
             
         elif "screen" in query and "shot" in query:
             screen_shot()
