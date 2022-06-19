@@ -3,8 +3,6 @@ import subprocess
 #Paths for the different applications
 paths = {
     "notepad": "mousepad",
-    "calculator": "/bin/mate-calculator",
-    "closecalculator": "/opt/VoiceAssist/src/functions/closecalculator.sh",
     "firefox": "/opt/DevEdition/firefox-bin",
     "thunderbird": "/opt/thunderbird/thunderbird-bin",
     "zoom": "/snap/bin/zoom-client",
@@ -13,9 +11,7 @@ paths = {
     "volume": "alsamixer",
     "mute": "/opt/VoiceAssist/src/functions/mute.sh",
     "unmute": "/opt/VoiceAssist/src/functions/unmute.sh",
-    "graphics": "/opt/VoiceAssist/src/functions/graphics.sh",
     "lockscreen": "/opt/VoiceAssist/src/functions/lockscreen.sh",
-    "office": "/opt/VoiceAssist/src/functions/office.sh",
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
 }
 
@@ -27,14 +23,6 @@ def close_notepad():
     # Closes the note pad
     subprocess.Popen(["killall", "mousepad"])
 
-def open_calculator():
-    # Open the calculator
-    subprocess.Popen(paths["calculator"])
-
-def close_calculator():
-    # Closes the calculator
-    subprocess.Popen(["killall", "mate-calc"])
-   
 def open_firefox():
     # Open firefox
     subprocess.Popen(paths["firefox"])
@@ -89,26 +77,10 @@ def mute_volume():
 def unmute_volume():
     # Unmutes the volume
     subprocess.Popen(paths["unmute"])
-    
-def open_graphics():
-    # Opens GIMP
-    subprocess.Popen(paths["graphics"])
-
-def close_graphics():
-    # Closes GIMP
-    subprocess.Popen(["killall", "gimp"])
-        
+         
 def lock_screen():
     # Locks screen
     subprocess.Popen(paths["lockscreen"])
-    
-def open_office():
-    # Opens LibreOffice
-    subprocess.Popen(paths["office"])
-
-def close_office():
-    # Closes LibreOffice
-    subprocess.Popen(["killall", "libreoffice"])
 
 def screen_shot():
     # Takes screen shot and saves file
