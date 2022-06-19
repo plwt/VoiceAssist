@@ -6,17 +6,13 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 ## Commands
 
-- Open code
-- Close code
-- Open files
-- Close files
+- Open code / - Close code
+- Open files / - Close files
+- Open notepad / - Close notepad
+- Open Zoom / - Close Zoom
 - Open Firefox
-- Open notepad
-- Close notepad
-- Open terminal
 - Open Thunderbird
-- Open Zoom
-- Close Zoom
+- Open terminal
 - End session
 - Quiet
 - Loud
