@@ -6,17 +6,11 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 ## Commands
 
-- Open calculator
-
 - Open code
 - Close code
 - Open files
-- Cloe files
+- Close files
 - Open Firefox
-- Open graphics
-
-- Open office
-
 - Open notepad
 - Close notepad
 - Open terminal
@@ -37,7 +31,4 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 ### Needs work
 
-- Close office - ready to test
-- Close calculator - need to identify process name
-- Close graphics - need to identify process name
 - Add "Easter egg"
