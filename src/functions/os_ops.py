@@ -8,7 +8,6 @@ paths = {
     "zoom": "/snap/bin/zoom-client",
     "files": "thunar",
     "code": "/opt/VoiceAssist/src/functions/code.sh",
-    "volume": "alsamixer",
     "mute": "/opt/VoiceAssist/src/functions/mute.sh",
     "unmute": "/opt/VoiceAssist/src/functions/unmute.sh",
     "lockscreen": "/opt/VoiceAssist/src/functions/lockscreen.sh",
