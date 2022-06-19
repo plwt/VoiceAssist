@@ -30,7 +30,3 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 | Take screen shot | Takes screenshot, saves it to desktop
 | Lock screen | Locks screen 
 | Exit | Stops VoiceAssist
-
-### Needs work
-
-- Add "Easter egg"
