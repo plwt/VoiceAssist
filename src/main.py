@@ -9,8 +9,6 @@ from functions.online_ops import (
 
 from functions.os_ops import (
     # On device functions
-    open_calculator,
-    close_calculator,
     open_firefox,
     open_thunderbird,
     open_notepad,
@@ -25,11 +23,7 @@ from functions.os_ops import (
     close_code,
     mute_volume,
     unmute_volume,
-    open_graphics,
-    close_graphics,
     lock_screen,
-    open_office,
-    close_office,
     screen_shot,
 
 )
@@ -137,12 +131,6 @@ if __name__ == "__main__":
         elif "open" in query and "thunderbird" in query:
             open_thunderbird()
 
-        elif "open" in query and "calculator" in query:
-            open_calculator()
-
-        elif "close" in query and "calculator" in query:
-            close_calculator()
-
         elif "open" in query and "zoom" in query:
             open_zoom()
         
@@ -188,21 +176,9 @@ if __name__ == "__main__":
             
         elif "maps" in query:
             open_maps()
-                    
-        elif "open" in query and "graphics" in query:
-            open_graphics()
-
-        elif "close" in query and "graphics" in query:
-            close_graphics()
-             
+                            
         elif "lock screen" in query:
             lock_screen()
-            
-        elif "open" in query and "office" in query:
-            open_office()
-
-        elif "close" in query and "office" in query:
-            close_office()
-            
+                       
         elif "screen" in query and "shot" in query:
             screen_shot()
