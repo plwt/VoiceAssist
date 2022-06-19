@@ -6,24 +6,30 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 ## Commands
 
-- Open code / - Close code
-- Open files / - Close files
-- Open notepad / - Close notepad
-- Open Zoom / - Close Zoom
-- Open Firefox
-- Open Thunderbird
-- Open terminal
-- End session
-- Quiet
-- Loud
-- Open YouTube
-- Search on Google
-- Open maps
-- What is the news? 
-- What is the weather?
-- Exit (or) Stop
-- Lock screen
-- Take screen shot
+| Say this... | to do this... 
+| :-------------| :------------- 
+| Open Code | Open VS Code Snap
+| Close Code | Close VS Code Snap
+| Open Files | Open Thunar file manager
+| Close Files | Close all instances of Thunar file manager
+| Open Notepad | Opens Mousepad
+| Close Notepad | Close all instances of Mousepad
+| Open Zoom | Open Zoom Snap
+| Close Zoom | Close Zoom Snap
+| Open Firefox | Opens Firefox
+| Open Thunderbird | Opens Thunderbird
+| Open Terminal | Opens Terminal
+| End Session | Opens the log out options
+| Quiet | Mutes speaker
+| Loud | Unmutes speaker
+| Open YouTube | User is asked for what they want to play on YouTube
+| Search on Google | User is asked for what they want to search for using Google
+| Open Maps | Opens openstreetmap.org in Firefox
+| What is the news? | Opens wikinews.org in Firefox
+| What is the weather? | Opens openweathermap.org in Firefox
+| Take screen shot | Takes screenshot, saves it to desktop
+| Lock screen | Locks screen 
+| Exit | Stops VoiceAssist
 
 ### Needs work
 
