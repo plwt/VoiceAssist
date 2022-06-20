@@ -32,4 +32,4 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 | Exit | Stops VoiceAssist
 
 
-<p>Check out <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
+<p>Check out <a href="https://www.freecodecamp.org/" target="__blank">freeCodeCamp</a>.</p>
