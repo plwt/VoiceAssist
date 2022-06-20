@@ -30,3 +30,14 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 | Take screen shot | Takes screenshot, saves it to desktop
 | Lock screen | Locks screen 
 | Exit | Stops VoiceAssist
+
+
+### Install
+
+```sudo apt install portaudio19-dev python3-tk python3-dev ffmpeg libespeak1```
+
+```cp /opt/VoiceAssist/VoiceAssist.desktop ~/.local/share/applications```
+
+### Uninstall
+
+```sudo apt uninstall portaudio19-dev python3-tk python3-dev ffmpeg libespeak1```
