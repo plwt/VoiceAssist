@@ -2,7 +2,6 @@
 
 cd /opt/VoiceAssist
 
-chmod +x /opt/VoiceAssist/src/functions/unmute.sh
 chmod +x /opt/VoiceAssist/src/functions/screenshot.sh
 chmod +x /opt/VoiceAssist/src/functions/lockscreen.sh
 
