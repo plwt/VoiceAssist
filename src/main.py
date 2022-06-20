@@ -184,5 +184,5 @@ if __name__ == "__main__":
         elif "screen" in query and "shot" in query:
             screen_shot()
             
-         elif "My" in query and "voice" in query and "is" in query and "my" in query and "passport" in query and "verify" in query and "me" in query:
+        elif "My" in query and "voice" in query and "is" in query and "my" in query and "passport" in query and "verify" in query and "me" in query:
             easter_egg()
