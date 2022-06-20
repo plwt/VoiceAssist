@@ -8,7 +8,6 @@ paths = {
     "zoom": "/snap/bin/zoom-client",
     "files": "thunar",
     "code": "/snap/bin/code",
-    "unmute": "/opt/VoiceAssist/src/functions/unmute.sh",
     "lockscreen": "/opt/VoiceAssist/src/functions/lockscreen.sh",
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
 }
@@ -74,7 +73,10 @@ def mute_volume():
 
 def unmute_volume():
     # Unmutes the volume
-    subprocess.Popen(paths["unmute"])
+    unmutevolume = subprocess.Popen(
+        ["amixer", "set", "Master", "unmute"]
+    )
+    print(unmutevolume)
          
 def lock_screen():
     # Locks screen
