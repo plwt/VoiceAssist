@@ -32,4 +32,4 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 | Exit | Stops VoiceAssist
 
 
-<p><a href="https://www.bbc.co.uk/news" title="Test1" target="_blank">Test2</a></p>
+<p><a href="https://www.bbc.co.uk/news" title="Test1" target="__blank">Test2</a></p>
