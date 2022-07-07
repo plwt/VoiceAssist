@@ -186,3 +186,7 @@ if __name__ == "__main__":
             
         elif "My" in query and "voice" in query and "is" in query and "my" in query and "passport" in query and "verify" in query and "me" in query:
             easter_egg()
+
+        elif "time" in query:
+            strTime = datetime.datetime.now().strftime("%H:%M:%S")
+            speak(f"The time is {strTime}")
