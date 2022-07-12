@@ -4,7 +4,6 @@ import datetime
 #Paths for the different applications
 paths = {
     "notepad": "mousepad",
-    "firefox": "firefox",
     "thunderbird": "/opt/thunderbird/thunderbird-bin",
     "zoom": "/snap/bin/zoom-client",
     "files": "thunar",
@@ -23,7 +22,7 @@ def close_notepad():
 
 def open_firefox():
     # Open firefox
-    subprocess.Popen(paths["firefox"])
+    subprocess.Popen(["firefox"])
 
 def open_thunderbird():
     # Open thunderbird
