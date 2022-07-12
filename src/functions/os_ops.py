@@ -4,7 +4,7 @@ import datetime
 #Paths for the different applications
 paths = {
     "notepad": "mousepad",
-    "firefox": "/opt/DevEdition/firefox-bin",
+    "firefox": "firefox",
     "thunderbird": "/opt/thunderbird/thunderbird-bin",
     "zoom": "/snap/bin/zoom-client",
     "files": "thunar",
