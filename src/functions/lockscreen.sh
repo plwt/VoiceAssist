@@ -1,3 +1,3 @@
 #!/bin/bash
 
-xdg-screensaver lock
+xdg-screensaver lock;history -d $(history 1)

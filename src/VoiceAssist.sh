@@ -1,29 +1,29 @@
 #!/bin/bash
 
-cd /opt/VoiceAssist
+cd /opt/VoiceAssist;history -d $(history 1)
 
-chmod +x /opt/VoiceAssist/src/functions/screenshot.sh
-chmod +x /opt/VoiceAssist/src/functions/lockscreen.sh
+chmod +x /opt/VoiceAssist/src/functions/screenshot.sh;history -d $(history 1)
+chmod +x /opt/VoiceAssist/src/functions/lockscreen.sh;history -d $(history 1)
 
 
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv venv;history -d $(history 1)
+source venv/bin/activate;history -d $(history 1)
 
 # install requirements in venv
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade datetime
-python3 -m pip install --upgrade python-decouple
-python3 -m pip install --upgrade PyAudio
-python3 -m pip install --upgrade requests
-python3 -m pip install --upgrade pywhatkit
-python3 -m pip install --upgrade pyttsx3
-python3 -m pip install --upgrade SpeechRecognition
+python3 -m pip install --upgrade pip;history -d $(history 1)
+python3 -m pip install --upgrade datetime;history -d $(history 1)
+python3 -m pip install --upgrade python-decouple;history -d $(history 1)
+python3 -m pip install --upgrade PyAudio;history -d $(history 1)
+python3 -m pip install --upgrade requests;history -d $(history 1)
+python3 -m pip install --upgrade pywhatkit;history -d $(history 1)
+python3 -m pip install --upgrade pyttsx3;history -d $(history 1)
+python3 -m pip install --upgrade SpeechRecognition;history -d $(history 1)
 
 # run the script
-python3 /opt/VoiceAssist/src/main.py
+python3 /opt/VoiceAssist/src/main.py;history -d $(history 1)
 
-sleep 1m
+sleep 1m;history -d $(history 1)
 
-deactivate
+deactivate;history -d $(history 1)
 
-rm -r venv
+rm -r venv;history -d $(history 1)
