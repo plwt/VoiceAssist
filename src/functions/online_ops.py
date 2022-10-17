@@ -33,3 +33,8 @@ def easter_egg():
     # Too many secrets
     exit_code = subprocess.Popen(("xdg-open", "https://www.youtube.com/watch?v=uT7Q4exM0T0"))
     print(exit_code)
+
+def easter_egg2():
+    # Hack the planet
+    exit_code = subprocess.Popen(("xdg-open", "https://threatbutt.com/map/"))
+    print(exit_code)
