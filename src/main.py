@@ -6,6 +6,7 @@ from functions.online_ops import (
     open_weather,
     open_maps,
     easter_egg,
+    easter_egg2,
 )
 
 from functions.os_ops import (
@@ -190,3 +191,6 @@ if __name__ == "__main__":
         elif "time" in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"The time is {strTime}")
+
+        elif "Hack" in query and "the" in query and "planet" in query:
+            easter_egg2()
