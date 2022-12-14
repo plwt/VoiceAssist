@@ -34,4 +34,6 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 Time is not yet tested
 
+## Dependancies
 
+sudo apt-get install python3-tk python3-dev python3.10-venv
