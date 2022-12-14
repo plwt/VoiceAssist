@@ -36,4 +36,4 @@ Time is not yet tested
 
 ## Dependancies
 
-sudo apt-get install python3-tk python3-dev python3.10-venv
+sudo apt-get install python3-tk python3-dev python3.10-venv python3-pyaudio portaudio19-dev
