@@ -27,6 +27,8 @@ from functions.os_ops import (
     unmute_volume,
     lock_screen,
     screen_shot,
+    new_mail,
+    address_book,
 
 )
 #Required for text to speach conversion
@@ -194,3 +196,9 @@ if __name__ == "__main__":
 
         elif "Hack" in query and "the" in query and "planet" in query:
             easter_egg2()
+            
+        elif "new" in query and "mail" in query:
+            new_mail()
+            
+        elif "address" in query and "book" in query:
+            address_book()
