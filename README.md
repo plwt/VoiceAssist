@@ -2,7 +2,7 @@
 
 A voice assistant for Linux.  This has been designed for Debian 11 Xfce.  Please check the file paths in os_ops.py before use to make sure they are correct for your device.
 
-Inspired by and forked from https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/
+Inspired by and forked from https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/ and https://www.codingthesmartway.com/python-and-chatgpt-4-develop-a-virtual-voice-assistant/
 
 ## Commands
 
