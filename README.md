@@ -31,6 +31,9 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 | Lock screen | Locks screen 
 | Exit | Stops VoiceAssist
 | Time | Responds with current time
+| New Mail | Opens new email client
+| Address Book | Opens address book
+| Computer (search term) | web search using Perplexity AI
 
 Time is not yet tested
 

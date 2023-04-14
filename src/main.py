@@ -29,6 +29,7 @@ from functions.os_ops import (
     screen_shot,
     new_mail,
     address_book,
+    web_search
 
 )
 #Required for text to speach conversion
@@ -202,3 +203,6 @@ if __name__ == "__main__":
             
         elif "address" in query and "book" in query:
             address_book()
+
+        elif "computer" in query:
+            web_search()

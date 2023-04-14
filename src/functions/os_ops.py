@@ -1,5 +1,6 @@
 import subprocess
 import datetime
+import webbrowser
 
 #Paths for the different applications
 paths = {
@@ -86,10 +87,15 @@ def screen_shot():
     # Takes screen shot and saves file
     subprocess.Popen(paths["screenshot"])
     
-def new_mail()
+def new_mail():
     # Opens Thunderbird new email
     subprocess.Popen(["/opt/thunderbird/thunderbird-bin", "-compose"])
 
-def address_book()
+def address_book():
     # Opens Thunderbird address book
     subprocess.Popen(["/opt/thunderbird/thunderbird-bin", "-addressbook"])
+
+def web_search(engine, command):
+    search_terms = command.replace("computer", "").strip()
+    url = f"https://www.perplexity.ai/?q={search_terms}"
+    webbrowser.open(url)
