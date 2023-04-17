@@ -1,5 +1,6 @@
 import subprocess
 import pywhatkit
+import webbrowser
 
 # import smtplib
 # from decouple import config
@@ -38,3 +39,8 @@ def easter_egg2():
     # Hack the planet
     exit_code = subprocess.Popen(("xdg-open", "https://threatbutt.com/map/"))
     print(exit_code)
+
+def web_search(engine, command):
+    search_terms = command.replace("computer", "").strip()
+    url = f"https://www.perplexity.ai/?q={search_terms}"
+    webbrowser.open(url)

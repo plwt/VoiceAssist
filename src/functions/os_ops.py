@@ -94,8 +94,3 @@ def new_mail():
 def address_book():
     # Opens Thunderbird address book
     subprocess.Popen(["/opt/thunderbird/thunderbird-bin", "-addressbook"])
-
-def web_search(engine, command):
-    search_terms = command.replace("computer", "").strip()
-    url = f"https://www.perplexity.ai/?q={search_terms}"
-    webbrowser.open(url)
