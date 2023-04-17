@@ -7,6 +7,7 @@ from functions.online_ops import (
     open_maps,
     easter_egg,
     easter_egg2,
+    web_search,
 )
 
 from functions.os_ops import (
@@ -29,9 +30,8 @@ from functions.os_ops import (
     screen_shot,
     new_mail,
     address_book,
-    web_search
-
 )
+
 #Required for text to speach conversion
 import pyttsx3
 
@@ -205,4 +205,4 @@ if __name__ == "__main__":
             address_book()
 
         elif "computer" in query:
-            web_search()
+            web_search(engine, query)

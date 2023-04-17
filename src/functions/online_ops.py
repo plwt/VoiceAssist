@@ -40,7 +40,7 @@ def easter_egg2():
     exit_code = subprocess.Popen(("xdg-open", "https://threatbutt.com/map/"))
     print(exit_code)
 
-def web_search(engine, command):
-    search_terms = command.replace("computer", "").strip()
+def web_search(engine, query):
+    search_terms = query.replace("computer", "").strip()
     url = f"https://www.perplexity.ai/?q={search_terms}"
     webbrowser.open(url)
