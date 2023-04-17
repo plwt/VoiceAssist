@@ -89,8 +89,8 @@ def screen_shot():
     
 def new_mail():
     # Opens Thunderbird new email
-    subprocess.Popen(["/opt/thunderbird/thunderbird-bin", "-compose"])
+    subprocess.Popen(["/usr/lib/thunderbird/thunderbird", "-compose"])
 
 def address_book():
     # Opens Thunderbird address book
-    subprocess.Popen(["/opt/thunderbird/thunderbird-bin", "-addressbook"])
+    subprocess.Popen(["/usr/lib/thunderbird/thunderbird", "-addressbook"])
