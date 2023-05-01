@@ -2,6 +2,11 @@ import subprocess
 import pywhatkit
 import webbrowser
 
+import speech_recognition as sr
+import pyttsx3
+import requests
+from bs4 import BeautifulSoup
+
 # import smtplib
 # from decouple import config
 # import requests
@@ -43,4 +48,8 @@ def easter_egg2():
 def web_search(engine, query):
     search_terms = query.replace("computer", "").strip()
     url = f"https://www.perplexity.ai/?q={search_terms}"
-    webbrowser.open(url)
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
+    answer = soup.find_all("span", class_="prose dark:prose-invert inline leading-normal break-words min-w-0").get_text()
+    speak(answer)
+    #webbrowser.open(url)
