@@ -50,7 +50,8 @@ from utils import opening_text
 # from pprint import pprint
 # import webbrowser
 # from decouple import config
-# import requests
+import requests
+from bs4 import BeautifulSoup
 
 
 # USERNAME = config('USER')
