@@ -45,11 +45,12 @@ def easter_egg2():
     exit_code = subprocess.Popen(("xdg-open", "https://threatbutt.com/map/"))
     print(exit_code)
 
-def web_search(engine, query):
+ef web_search(engine, query):
     search_terms = query.replace("computer", "").strip()
     url = f"https://www.perplexity.ai/?q={search_terms}"
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
-    answer = soup.find_all("span", class_="prose dark:prose-invert inline leading-normal break-words min-w-0").get_text()
-    speak(answer)
+    answer_element = soup.find('div', {'class': 'answer'})
+    #answer = answer_element.text.strip()
+    speak(answer_element)
     #webbrowser.open(url)
