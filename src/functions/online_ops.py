@@ -47,9 +47,5 @@ def easter_egg2():
 
 def web_search(engine, query):
     search_terms = query.replace("computer", "").strip()
-    url = f"https://www.google.com/search?q={query}"
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, "html.parser")
-    answer = soup.find_all("span", class_="hgKElc").get_text()
-    speak(answer_element)
-    #webbrowser.open(url)
+    url = f"https://www.perplexity.ai/search?q={query}"
+    webbrowser.open(url)
