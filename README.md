@@ -8,14 +8,10 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 
 | Say this... | to do this... 
 | :-------------| :------------- 
-| Open Code | Open VS Code Snap
-| Close Code | Close VS Code Snap
 | Open Files | Open Thunar file manager
 | Close Files | Close all instances of Thunar file manager
 | Open Notepad | Opens Mousepad
 | Close Notepad | Close all instances of Mousepad
-| Open Zoom | Open Zoom Snap
-| Close Zoom | Close Zoom Snap
 | Open Firefox | Opens Firefox
 | Open Thunderbird | Opens Thunderbird
 | Open Terminal | Opens Terminal
