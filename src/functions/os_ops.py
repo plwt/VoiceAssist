@@ -5,7 +5,6 @@ import webbrowser
 #Paths for the different applications
 paths = {
     "notepad": "mousepad",
-    "thunderbird": "/opt/thunderbird/thunderbird-bin",
     "files": "thunar",
     "lockscreen": "/opt/VoiceAssist/src/functions/lockscreen.sh",
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
@@ -22,10 +21,6 @@ def close_notepad():
 def open_firefox():
     # Open firefox
     subprocess.Popen(["firefox"])
-
-def open_thunderbird():
-    # Open thunderbird
-    subprocess.Popen(paths["thunderbird"])
 
 def open_files():
     # Open the file manager
