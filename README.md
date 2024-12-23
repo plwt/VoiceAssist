@@ -13,7 +13,6 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 | Open Notepad | Opens Mousepad
 | Close Notepad | Close all instances of Mousepad
 | Open Firefox | Opens Firefox
-| Open Thunderbird | Opens Thunderbird
 | Open Terminal | Opens Terminal
 | End Session | Opens the log out options
 | Quiet | Mutes speaker
@@ -27,8 +26,6 @@ Inspired by and forked from https://www.freecodecamp.org/news/python-project-how
 | Lock screen | Locks screen 
 | Exit | Stops VoiceAssist
 | Time | Responds with current time
-| New Mail | Opens new email client
-| Address Book | Opens address book
 | Computer (search term) | web search using Perplexity AI
 
 Time is not yet tested
