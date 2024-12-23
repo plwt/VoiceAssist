@@ -6,9 +6,7 @@ import webbrowser
 paths = {
     "notepad": "mousepad",
     "thunderbird": "/opt/thunderbird/thunderbird-bin",
-    "zoom": "/snap/bin/zoom-client",
     "files": "thunar",
-    "code": "/snap/bin/code",
     "lockscreen": "/opt/VoiceAssist/src/functions/lockscreen.sh",
     "screenshot": "/opt/VoiceAssist/src/functions/screenshot.sh",
 }
@@ -29,14 +27,6 @@ def open_thunderbird():
     # Open thunderbird
     subprocess.Popen(paths["thunderbird"])
 
-def open_zoom():
-    # Open zoom
-    subprocess.Popen(paths["zoom"])
-
-def close_zoom():
-    # Closes zoom
-    subprocess.Popen(["killall", "zoom"])
-
 def open_files():
     # Open the file manager
     subprocess.Popen(paths["files"])
@@ -55,15 +45,7 @@ def open_terminal():
     openterminal = subprocess.Popen(
         ["exo-open", "--launch", "TerminalEmulator", "--working-directory=/home/"]
     )
-    print(openterminal)
-
-def open_code():
-    # Opens the code editor
-    subprocess.Popen(paths["code"])
-
-def close_code():
-    # Closes the code editor
-    subprocess.Popen(["killall", "code"])
+    print(openterminal)a
 
 def mute_volume():
     # Mutes the volume
