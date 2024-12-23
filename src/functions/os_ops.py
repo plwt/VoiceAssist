@@ -63,11 +63,3 @@ def lock_screen():
 def screen_shot():
     # Takes screen shot and saves file
     subprocess.Popen(paths["screenshot"])
-    
-def new_mail():
-    # Opens Thunderbird new email
-    subprocess.Popen(["/usr/lib/thunderbird/thunderbird", "-compose"])
-
-def address_book():
-    # Opens Thunderbird address book
-    subprocess.Popen(["/usr/lib/thunderbird/thunderbird", "-addressbook"])
