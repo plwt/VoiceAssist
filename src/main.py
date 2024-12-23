@@ -13,7 +13,6 @@ from functions.online_ops import (
 from functions.os_ops import (
     # On device functions
     open_firefox,
-    open_thunderbird,
     open_notepad,
     close_notepad,
     open_terminal,
@@ -129,9 +128,6 @@ if __name__ == "__main__":
 
         elif "open" in query and "firefox" in query:
             open_firefox()
-
-        elif "open" in query and "thunderbird" in query:
-            open_thunderbird()
 
         elif "open" in query and "files" in query:
             open_files()
