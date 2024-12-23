@@ -17,13 +17,9 @@ from functions.os_ops import (
     open_notepad,
     close_notepad,
     open_terminal,
-    open_zoom,
-    close_zoom,
     open_files,
     close_files,
     end_session,
-    open_code,
-    close_code,
     mute_volume,
     unmute_volume,
     lock_screen,
@@ -137,12 +133,6 @@ if __name__ == "__main__":
         elif "open" in query and "thunderbird" in query:
             open_thunderbird()
 
-        elif "open" in query and "zoom" in query:
-            open_zoom()
-        
-        elif "close" in query and "zoom" in query:
-            close_zoom()
-
         elif "open" in query and "files" in query:
             open_files()
 
@@ -167,12 +157,6 @@ if __name__ == "__main__":
 
         elif "end session" in query:
             end_session()
-
-        elif "open" in query and "code" in query:
-            open_code()
-
-        elif "close" in query and "code" in query:
-            close_code()
 
         elif "quiet" in query:
             mute_volume()
